@@ -1,0 +1,54 @@
+:root {
+  --felt: #eef0e9;
+  --panel: #f9faf6;
+  --ink: #1e2921;
+  --dim: #5b685d;
+  --rule: #d4dacd;
+  --wash: #e3e8dc;
+  --amber: #985a14;
+  --amber-pale: #f2e4cc;
+
+  --bomb: #8a3fa0;
+  --strong: #2d7a47;
+  --good: #5d7b2c;
+  --meh: #8c7a34;
+  --weak: #a6442e;
+
+  --mana-W: #efe5c0;
+  --mana-U: #3c78c3;
+  --mana-B: #4e4452;
+  --mana-R: #c8462e;
+  --mana-G: #39894e;
+  --mana-C: #a8a59b;
+
+  --serif: "Alegreya", Georgia, "Times New Roman", serif;
+  --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --code: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+
+  --round: 10px;
+  --bar: 60px;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --felt: #131a15;
+  --panel: #1a231d;
+  --ink: #e2e8dc;
+  --dim: #98a599;
+  --rule: #2d3a30;
+  --wash: #243027;
+  --amber: #e1a454;
+  --amber-pale: #3a2d1b;
+  --bomb: #c88ae0;
+  --strong: #6ccf8a;
+  --good: #a8c869;
+  --meh: #d2c070;
+  --weak: #f08a71;
+  --mana-W: #e7ddb6;
+  --mana-U: #68a2e8;
+  --mana-B: #9a8da0;
+  --mana-R: #ee795e;
+  --mana-G: #6ac184;
+  --mana-C: #8e8b83;
+  color-scheme: dark;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Draft guides</title>
+<meta name="description" content="Limited draft guides for Magic: The Gathering sets, built on 17Lands data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<script>
+  try { var t = localStorage.getItem("theme"); } catch (e) {}
+  document.documentElement.dataset.theme = t === "dark" || (t !== "light" && matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+</script>
+<link rel="stylesheet" href="assets/css/tokens.css?v=20261110003004">
+<link rel="stylesheet" href="assets/css/layout.css?v=20261110003004">
+<link rel="stylesheet" href="assets/css/components.css?v=20261110003004">
+<script type="module" src="assets/js/main.js?v=20261110003004"></script>
+</head>
+<body>
+<header class="topbar">
+  <button class="menu" id="menu" aria-label="Show navigation">☰</button>
+  <a class="brand" href="#/">Draft guides</a>
+  <label class="set-select"><span class="visually-hidden">Set</span><select id="set-picker"></select></label>
+  <div class="search">
+    <input type="search" id="search" placeholder="Search guide and cards  /" aria-label="Search guide and cards" autocomplete="off">
+    <div class="search-results" id="search-results" hidden></div>
+  </div>
+  <button class="theme" id="theme" type="button">◐ Auto</button>
+</header>
+<div class="shell">
+  <nav class="sidebar" id="nav" aria-label="Guide"></nav>
+  <main id="main" class="content"><p class="empty">Loading…</p></main>
+</div>
+<footer class="footer">
+  Win rates from <a href="https://www.17lands.com">17Lands</a>. Card images from <a href="https://scryfall.com">Scryfall</a>.
+  Card names and images are © Wizards of the Coast. Unofficial fan content, not approved or endorsed by Wizards.
+</footer>
+<dialog id="card-dialog" aria-label="Card details">
+  <button class="dlg-close" id="card-dialog-close" aria-label="Close">×</button>
+  <div class="dlg-body" id="card-dialog-body"></div>
+</dialog>
+</body>
+</html>
