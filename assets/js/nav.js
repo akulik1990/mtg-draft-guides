@@ -1,6 +1,6 @@
-import { COLOURS, pairLabel } from "./data.js?v=20261110003004";
-import { esc, pips } from "./ui.js?v=20261110003004";
-import { REFERENCE, referenceList } from "./views/reference.js?v=20261110003004";
+import { COLOURS, pairLabel } from "./data.js?v=20261110005414";
+import { esc, pips } from "./ui.js?v=20261110005414";
+import { REFERENCE, referenceList } from "./views/reference.js?v=20261110005414";
 
 const opened = new Set();
 const closed = new Set();

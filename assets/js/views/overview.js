@@ -1,5 +1,5 @@
-import { COLOURS, colourStats, pairLabel, pairRank } from "../data.js?v=20261110003004";
-import { esc, link, pips } from "../ui.js?v=20261110003004";
+import { COLOURS, colourStats, pairLabel, pairRank } from "../data.js?v=20261110005414";
+import { esc, link, pips } from "../ui.js?v=20261110005414";
 
 const firstSentence = secs => ((secs || []).flatMap(s => s.text || [])[0] || "").split(/(?<=\.)\s/)[0];
 

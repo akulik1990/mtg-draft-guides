@@ -1,6 +1,6 @@
-import { COLOURS, RARITIES, VERDICTS, colourStats, inPair, matches, pairLabel, pairRank, pairScore, pairsWith, themeRole, verdict } from "../data.js?v=20261110003004";
-import { esc, gih, grid, link, pips, section, statStrip } from "../ui.js?v=20261110003004";
-import { rows } from "./reference.js?v=20261110003004";
+import { COLOURS, RARITIES, VERDICTS, colourStats, inPair, matches, pairLabel, pairRank, pairScore, pairsWith, themeRole, verdict } from "../data.js?v=20261110005414";
+import { esc, gih, grid, link, pips, section, statStrip } from "../ui.js?v=20261110005414";
+import { rows } from "./reference.js?v=20261110005414";
 
 const TOP = 8;
 

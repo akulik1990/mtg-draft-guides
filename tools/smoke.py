@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CHROME = shutil.which("google-chrome-stable") or shutil.which("google-chrome") or shutil.which("chromium")
 COLOURS = "WUBRG"
-REFERENCE = ["cards", "cards?view=list", "removal", "instant-speed", "sleepers", "top-players", "splash"]
+REFERENCE = ["first-picks", "cards", "cards?view=list", "removal", "instant-speed", "sleepers", "top-players", "splash"]
 
 
 # Every page a set has

@@ -1,5 +1,5 @@
-import { COLOURS, colouredPips, isInstantSpeed, playable } from "../data.js?v=20261110003004";
-import { esc, gih, grid, link, pips, section } from "../ui.js?v=20261110003004";
+import { COLOURS, colouredPips, isInstantSpeed, pairLabel, playable } from "../data.js?v=20261110005414";
+import { esc, gih, grid, link, pips, section } from "../ui.js?v=20261110005414";
 
 function block(headingHtml, body, extra = "") { return `<section class="block"><h2>${headingHtml}</h2>${body}${extra}</section>`; }
 
@@ -32,7 +32,40 @@ function rankOf(list, key) {
   return new Map(sorted.map((c, i) => [c.name, i + 1]));
 }
 
+function mini(set, list, empty) { return list.length ? grid(set, list, { compact: true }) : `<p class="hint">${esc(empty)}</p>`; }
+const best = (list, n) => [...list].sort((a, b) => b.gih - a.gih).slice(0, n);
+
+function colourColumn(set, pool, c) {
+  const m = set.meta, mono = pool.filter(x => x.colors === c);
+  const late = mono.filter(x => x.alsa >= (m.late_alsa ?? 99) && x.gih >= m.mean);
+  return `<div class="partner">
+    <h3>${link(set, `colour/${c}`, `${pips(c)}${COLOURS[c]}`)}</h3>
+    <p class="hint">Pairs' deck win rate ${set.colourWr[c].toFixed(1)}</p>
+    <h4>Best uncommons</h4>${mini(set, best(mono.filter(x => x.rarity === "U"), 3), "None stand out.")}
+    <h4>Best commons</h4>${mini(set, best(mono.filter(x => x.rarity === "C"), 3), "None stand out.")}
+    <h4>Good cards that go late</h4>${mini(set, best(late, 3), "Its good cards go early.")}
+  </div>`;
+}
+
 export const REFERENCE = {
+  "first-picks": {
+    title: "First picks",
+    render(set) {
+      const m = set.meta, pool = playable(set);
+      const bombs = best(pool.filter(c => c.gih >= m.bands.bomb), 12);
+      const removal = best(pool.filter(c => c.tags.includes("Removal") && c.gih >= m.mean), 10);
+      const pairs = set.pairList.map(p => `<li>${link(set, `pair/${p}`, `${pips(p)}<b>${p}</b> <span>${esc(pairLabel(set, p))}</span>`)}<em>${m.deck_wr[p]?.toFixed(1) ?? "n/a"}</em></li>`).join("");
+      return intro(set, "first-picks") + `<p class="lead">For the first picks, before you are in a pair. Take the strongest card,
+        stay open and watch what comes late.</p>
+        <div class="page-top"><div class="top-main">${section("Bombs", mini(set, bombs, "No card reaches bomb level."))}</div>
+        <aside class="top-side"><h2 class="side-title">Pairs ranked</h2><ol class="pair-rank">${pairs}</ol>
+        <p class="hint">Deck win rate. Format average ${m.deck_wr_all ?? "n/a"}.</p></aside></div>
+        <section class="block"><h2>By colour</h2><p class="hint">Single-colour cards, colours ranked by their pairs' deck win rate.
+        If the late cards of one colour keep turning up after pick ${Math.round(m.late_alsa ?? 0)}, that colour is probably open.</p>
+        <div class="partners partners-5">${set.colourList.map(c => colourColumn(set, pool, c)).join("")}</div></section>`
+        + (removal.length ? section("Best removal", grid(set, removal, { compact: true })) : "");
+    },
+  },
   removal: {
     title: "Removal",
     render(set) {
