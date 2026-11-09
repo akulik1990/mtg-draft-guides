@@ -1,0 +1,1105 @@
+{
+ "name": "Bloomburrow",
+ "released": "2024-08-02",
+ "format": "Premier Draft",
+ "corrections": {
+  "Swords to Plowshares": {
+   "types": [
+    "Instant"
+   ],
+   "subtypes": [],
+   "cost": "{W}",
+   "mv": 1,
+   "text": "Exile target creature. Its controller gains life equal to its power."
+  }
+ },
+ "notes": {
+  "Agate Assault": "4 damage, or artifact removal when you need it.",
+  "Bakersbane Duo": "Efficient 2-drop that brings a Food.",
+  "Banishing Light": "Exiles anything. Slightly below average by GIH, still a top removal pick.",
+  "Brightblade Stoat": "First strike and lifelink on a 2-drop. Any white deck plays it.",
+  "Cache Grab": "Card selection, a Food and graveyard fuel. Good far beyond squirrels.",
+  "Carrot Cake": "Two bodies, two scrys and a Food. The best white common.",
+  "Dire Downdraft": "Blue's best common. Tucks a creature and gets cheap against attackers.",
+  "Downwind Ambusher": "Flash. Finishes off a damaged creature or shrinks one.",
+  "Fell": "Destroy target creature for 2 mana.",
+  "Galewind Moose": "Flash, vigilance, reach and trample on a big body.",
+  "Glidedive Duo": "A flyer that drains 2. WB and BR both want it.",
+  "Harvestrite Host": "Rabbit engine that pumps and draws as rabbits enter.",
+  "Heartfire Hero": "The valiant payoff. Grows with every target and burns the opponent when it dies.",
+  "Hop to It": "Three bodies for 3 mana. Tokens for GW and other wide decks.",
+  "Hunter's Talent": "Removal plus a lasting attack bonus.",
+  "Intrepid Rabbit": "A 3-drop with a combat trick attached, plus offspring for value.",
+  "Nocturnal Hunger": "Unconditional kill at instant speed.",
+  "Overprotect": "Wins a combat or saves a creature from removal.",
+  "Pearl of Wisdom": "Draw two, cheaper with an otter. Often wheels.",
+  "Polliwallop": "Bite at instant speed, cheaper with frogs.",
+  "Rabid Gnaw": "Bite for 2. Red's best uncommon.",
+  "Repel Calamity": "Answers the big threats.",
+  "Savor": "The best common in the set. Kills X/2s and leaves a Food behind.",
+  "Scales of Shale": "Underrated trick. Lifelink and indestructible, cheap with lizards.",
+  "Shoreline Looter": "Blue's best uncommon. Card advantage that can't be blocked.",
+  "Sonar Strike": "4 damage to a tapped or attacking creature for 2 mana.",
+  "Splash Lasher": "Stuns on entry, and offspring adds a second stun.",
+  "Sugar Coat": "Turns a creature into a Food. Close enough to removal.",
+  "Take Out the Trash": "3 damage at instant speed. Red's best common.",
+  "Thought-Stalker Warlock": "Menace body that strips a card from their hand.",
+  "Treeguard Duo": "Turns a wide board into a big alpha strike.",
+  "Wick's Patrol": "Removal stapled to a 6-drop that mills itself toward threshold."
+ },
+ "colours": {
+  "W": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Rabbits, bats, birds and mice. The best common removal and wide boards; good in every pair. Draftsim ranks it second and the data agree it is one of the three deep colours."
+     ]
+    }
+   ]
+  },
+  "U": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Birds, frogs, otters and rats. Tempo, flyers and card draw, but no common hard removal. The weakest commons in the set (none reaches 57) with decent uncommons. Underdrafted, so its commons wheel and the colour is often open. Draftsim ranks it last."
+     ]
+    }
+   ]
+  },
+  "B": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Bats, lizards, rats and squirrels. The deepest uncommons in the set and the best cheap removal. Draftsim ranks it third; by win rate its uncommons are ahead of every other colour's."
+     ]
+    }
+   ]
+  },
+  "R": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Mice, lizards, otters and raccoons. Aggressive, with burn for removal. The weakest colour in the set at both common and uncommon. Draftsim puts it fourth, and its mythic Season is the one to pass."
+     ]
+    }
+   ]
+  },
+  "G": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Frogs, rabbits, raccoons and squirrels. Fight spells and big bodies, the best commons of any colour, and the only colour that splashes comfortably. Draftsim ranks it first."
+     ]
+    }
+   ]
+  }
+ },
+ "pairs": {
+  "WU": {
+   "archetypes": [
+    {
+     "name": "Flying midrange",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Flying midrange that buffs the ground team whenever flyers enter. One of the two weakest pairs; blue's thin commons hold it back."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "flyers",
+      "payoff": [
+       "creature you control with flying",
+       "Bird you control",
+       "Birds you control",
+       "without flying"
+      ],
+      "enabler": [
+       "Flying"
+      ]
+     },
+     "key": [
+      [
+       "Plumecreed Mentor",
+       "Buffs your ground creatures when flyers enter."
+      ],
+      [
+       "Kastral, the Windcrested",
+       "A bird payoff people rate higher than its win rate."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Bird"
+   ]
+  },
+  "UB": {
+   "archetypes": [
+    {
+     "name": "Threshold control",
+     "mechanic": "threshold",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Self-mill, surveil and loot until seven cards are in your graveyard, then the payoffs switch on. Slow to get going and strong late. It is the one archetype whose package showed a clear effect on deck win rate."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "a full graveyard (threshold)",
+      "payoff": [
+       "Threshold"
+      ],
+      "enabler": [
+       "mill",
+       "surveil",
+       "discard",
+       "forage"
+      ]
+     },
+     "key": [
+      [
+       "Tidecaller Mentor",
+       "Menace and a bounce once threshold is on."
+      ],
+      [
+       "Vren, the Relentless",
+       "Makes rats every turn creatures die."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Rat"
+   ]
+  },
+  "BR": {
+   "archetypes": [
+    {
+     "name": "Life-loss aggro",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Make the opponent lose life early with pingers, menace and drain, then cast payoffs that check whether they lost life this turn. The best deck in the format by win rate. Black supplies the removal and red the reach."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "the opponent losing life",
+      "payoff": [
+       "opponent lost life",
+       "an opponent lost life",
+       "opponents lost life"
+      ],
+      "enabler": [
+       "each opponent loses",
+       "target opponent loses",
+       "damage to each opponent",
+       "damage to target opponent",
+       "menace"
+      ]
+     },
+     "key": [
+      [
+       "Fireglass Mentor",
+       "Card advantage whenever the opponent has lost life."
+      ],
+      [
+       "Gev, Scaled Scorch",
+       "Counters on every creature once you have dealt damage."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Lizard"
+   ]
+  },
+  "RG": {
+   "archetypes": [
+    {
+     "name": "Expend ramp",
+     "mechanic": "expend",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Four-drops, mana sinks and the biggest bodies in the set. Every expend card triggers on the fourth mana, so the deck lives on its curve hitting four."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "spending four mana (expend)",
+      "payoff": [
+       "expend"
+      ],
+      "enabler": [
+       "Add {",
+       "Treasure",
+       "Food"
+      ]
+     },
+     "key": [
+      [
+       "Wandertale Mentor",
+       "A mana dork that grows with expend."
+      ],
+      [
+       "Muerra, Trash Tactician",
+       "Ramps per raccoon and gains life on expend."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Raccoon"
+   ]
+  },
+  "GW": {
+   "archetypes": [
+    {
+     "name": "Go-wide tokens",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Go wide with tokens and offspring, then pump the team. The commons are strong in both colours, which makes it the most reliable deck to end up in. Second best by win rate."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "tokens and wide boards",
+      "payoff": [
+       "control a token",
+       "that's a token",
+       "number of creatures you control",
+       "creatures you control get"
+      ],
+      "enabler": [
+       "create a 1/1",
+       "create two",
+       "Offspring",
+       "token"
+      ]
+     },
+     "key": [
+      [
+       "Burrowguard Mentor",
+       "Grows with your board. One of the best uncommons."
+      ],
+      [
+       "Finneas, Ace Archer",
+       "Pumps every token and rabbit on each attack."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Rabbit"
+   ]
+  },
+  "WB": {
+   "archetypes": [
+    {
+     "name": "Life-change flyers",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Gain or lose life every turn to turn on the payoffs. Flyers, drain and the best removal in the format, though bats block poorly, so the deck wants to be the one attacking."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "life gain or loss",
+      "payoff": [
+       "gained or lost life",
+       "gain or lose life",
+       "whenever you gain life",
+       "you gained life"
+      ],
+      "enabler": [
+       "you gain 1 life",
+       "you gain 2 life",
+       "you gain 3 life",
+       "you gain 4 life",
+       "loses 1 life",
+       "loses 2 life",
+       "loses 3 life",
+       "lifelink",
+       "Food"
+      ]
+     },
+     "key": [
+      [
+       "Starseer Mentor",
+       "A flyer that taxes the opponent each turn you gain or lose life."
+      ],
+      [
+       "Zoraline, Cosmos Caller",
+       "Flying recursion engine."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Bat"
+   ]
+  },
+  "UR": {
+   "archetypes": [
+    {
+     "name": "Spells tempo",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Spells-matter tempo on weak bodies. The weakest pair in the format. If you end up here, take interaction first and keep the creature count up."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "casting noncreature spells",
+      "payoff": [
+       "noncreature spell"
+      ],
+      "enabler": [
+       "Instant",
+       "Sorcery"
+      ]
+     },
+     "key": [
+      [
+       "Stormcatch Mentor",
+       "Makes spells cheaper. Weak in practice."
+      ],
+      [
+       "Ral, Crackling Wit",
+       "Otter tokens and card filtering."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Otter"
+   ]
+  },
+  "BG": {
+   "archetypes": [
+    {
+     "name": "Forage midrange",
+     "mechanic": "forage",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Graveyard and Food midrange with forage payoffs. The guides disagree on how deep it is; the data rank it third. Black removal and green bodies carry it even when the forage cards don't show up."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "forage and Food",
+      "payoff": [
+       "forage"
+      ],
+      "enabler": [
+       "Food",
+       "mill"
+      ]
+     },
+     "key": [
+      [
+       "Vinereap Mentor",
+       "The best uncommon in the set. Two Foods, a body and forage fuel."
+      ],
+      [
+       "Camellia, the Seedmiser",
+       "Squirrel lord with menace that makes tokens."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Squirrel"
+   ]
+  },
+  "RW": {
+   "archetypes": [
+    {
+     "name": "Valiant aggro",
+     "mechanic": "valiant",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "The fastest deck in the format. It needs creatures and spells that target your own creatures, so count your enablers before you count your payoffs."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "targeting your own creatures (valiant)",
+      "payoff": [
+       "Valiant"
+      ],
+      "enabler": [
+       "target creature you control",
+       "another target creature you control",
+       "equip",
+       "Aura"
+      ]
+     },
+     "key": [
+      [
+       "Seedglaive Mentor",
+       "Haste and valiant, but below average on its own."
+      ],
+      [
+       "Mabel, Heir to Cragflame",
+       "Mouse lord that brings an equipment."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Mouse"
+   ]
+  },
+  "GU": {
+   "archetypes": [
+    {
+     "name": "Flicker value",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Bounce or flicker your own creatures to reuse their enter triggers. Grindy and the best pair for a splash, since green has the fixing. Fifth by win rate."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "bouncing and flickering your own creatures",
+      "payoff": [],
+      "enabler": [
+       "you control to its owner's hand",
+       "you control, then return",
+       "return it to the battlefield",
+       "return that card to the battlefield"
+      ]
+     },
+     "key": [
+      [
+       "Lilysplash Mentor",
+       "Flicker on a stick that repeats every enter trigger."
+      ],
+      [
+       "Dreamdew Entrancer",
+       "Locks a creature down for three turns. A top-three card in the set."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Frog"
+   ]
+  }
+ },
+ "pages": [
+  {
+   "id": "overview",
+   "title": "The set",
+   "group": "Basics",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Bloomburrow is a set about animal folk. There are ten creature types, one for each two-colour pair, and each comes with its own mechanic and game plan. It plays as a fast, creature-heavy format. Flyers matter, removal is scarce and most games are won on the board.",
+      "The numbers come from 17Lands Premier Draft data, checked against the Card Kingdom and Draftsim set guides. When a guide and the data disagree, the page goes with the data and says so."
+     ]
+    },
+    {
+     "heading": "The format in short",
+     "list": [
+      "Two colours, 16 lands, around 15 creatures. The Building a deck page has the numbers.",
+      "Card quality beats synergy. Most tribal payoffs care about a mechanic (targeting, life changing, a full graveyard) rather than the creature type. Of ten archetype themes tested against deck results, only UB threshold showed a clear effect.",
+      "Tribes still pull picks. Strong players take a creature from a tribe they already have more often, and they skip tribal payoffs when they have nothing to pay off yet.",
+      "White, black and green run deep. Blue has the weakest commons, none reaching 57, and red is the weakest colour overall.",
+      "BR, GW, BG and WB have the best deck win rates. UR and WU are at the bottom.",
+      "Rares swing games: 14 rares and mythics win at 62 or more, against 59.2 for the best common.",
+      "Each pair has a gold uncommon Mentor and a gold rare that show its plan (see each pair page). The Duos are commons with two creature types that bridge neighbouring tribes."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drafting",
+   "title": "How to draft it",
+   "group": "Basics",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "In the first five picks, take power and then removal. Bombs and Seasons come first whatever their colour, followed by black and white removal and the top uncommons. A strong gold signpost is a fine early pick; the BG and GW Mentors are both top-ten uncommons.",
+      "On tribes: take a member when you already have a few. A tribal payoff with nothing around it is a pick strong players avoid. The rare lords for rabbits, mice and rats are worth building around.",
+      "People go wrong in a few predictable places. Splashy legends with poor win rates get taken early (see Traps). The Sleepers page lists cards that win more than their pick order suggests."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "building",
+   "title": "Building a deck",
+   "group": "Basics",
+   "stats": [
+    [
+     "Two-colour decks",
+     "93.5%",
+     "of 89,275 decks"
+    ],
+    [
+     "Two colours win",
+     "54.8%",
+     "three colours 50.7%"
+    ],
+    [
+     "Splashing",
+     "53.2%",
+     "37% of decks splash; no splash 55.4%"
+    ],
+    [
+     "16 lands",
+     "55.5%",
+     "17 lands 54.3% (75% of decks)"
+    ],
+    [
+     "Creatures",
+     "15",
+     "median"
+    ],
+    [
+     "Two-drop creatures",
+     "5",
+     "median"
+    ],
+    [
+     "Removal",
+     "4-5",
+     "spells per deck"
+    ],
+    [
+     "Average mana value",
+     "2.8",
+     ""
+    ]
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Figures from 89,275 BLB Premier Draft decks on 17Lands (players with 100+ games, finished events).",
+      "Winning and losing decks have almost exactly the same shape: same creature count, same curve, same removal count. These numbers describe a normal deck, they don't make one win. Card quality does.",
+      "Play two colours. Splash a bomb only, and only with real fixing; the set has very little.",
+      "Sixteen lands does a little better than seventeen, even though three in four decks run seventeen."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "offspring",
+   "title": "Offspring",
+   "group": "Mechanics",
+   "match": "Offspring",
+   "summary": "Pay extra to also get a 1/1 token copy",
+   "verdict": "Uneven. Good on cheap creatures with an enter trigger.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Pay the offspring cost on top of the mana cost and you also get a 1/1 token copy of the creature. It is best on cheap creatures whose enter trigger the copy repeats. On a plain body, the extra mana is rarely worth it. It shows up in every colour rather than one archetype."
+     ],
+     "cards": [
+      [
+       "Intrepid Rabbit",
+       "Offspring done right: a cheap enter trigger that the copy repeats."
+      ],
+      [
+       "Finch Formation",
+       "Offspring at its worst."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "valiant",
+   "title": "Valiant",
+   "group": "Mechanics",
+   "match": "Valiant",
+   "summary": "Triggers the first time each turn you target the creature",
+   "verdict": "RW mice. Needs enablers that target your own creatures.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Valiant triggers the first time each turn you target the creature with a spell or ability you control. It is the RW mice mechanic, and it only works with enough pump spells, auras and creatures that target your own team."
+     ],
+     "cards": [
+      [
+       "Heartfire Hero",
+       "The best valiant payoff. Grows with every target and burns the opponent when it dies."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "forage",
+   "title": "Forage",
+   "group": "Mechanics",
+   "match": "forage",
+   "summary": "Exile three cards from your graveyard or sacrifice a Food",
+   "verdict": "BG squirrels. One or two forage cards fit any deck.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "To forage, exile three cards from your graveyard or sacrifice a Food. It is the BG squirrel mechanic, but one or two forage cards fit almost any deck, much like delve: the graveyard fills up on its own."
+     ],
+     "cards": [
+      [
+       "Feed the Cycle",
+       "Forage as a cost. Unconditional 2-mana removal once three cards are in the graveyard."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "expend",
+   "title": "Expend",
+   "group": "Mechanics",
+   "match": "expend",
+   "summary": "Triggers when you spend your fourth mana in a turn",
+   "verdict": "RG raccoons. Four-drops and mana sinks make it work.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Expend triggers when you spend your fourth total mana in a turn. Every expend card in the set is expend 4, so the RG raccoon deck wants four-drops and mana sinks to hit it every turn."
+     ],
+     "cards": [
+      [
+       "Wandertale Mentor",
+       "Expend payoff and mana dork in one."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gift",
+   "title": "Gift",
+   "group": "Mechanics",
+   "match": "Gift a",
+   "summary": "Your opponent gets a gift and your spell gets stronger",
+   "verdict": "Real decisions every game.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Gift cards let you promise your opponent something (a card, a Food, a tapped Fish, an extra turn of life) in exchange for a stronger effect. They create real decisions every game, and Draftsim calls gift the best gameplay mechanic in the set."
+     ],
+     "cards": [
+      [
+       "Nocturnal Hunger",
+       "Gift a Food to skip the life loss. Premium common removal."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "threshold",
+   "title": "Threshold",
+   "group": "Mechanics",
+   "match": "Threshold",
+   "summary": "A bonus once seven or more cards are in your graveyard",
+   "verdict": "UB rats. The one package with a clear deck-level effect.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Threshold cards get better once seven or more cards are in your graveyard. It is the UB rat mechanic: self-mill, surveil and loot to get there. Slow to switch on, strong once it does, and the only archetype package with a clear effect on deck win rate."
+     ],
+     "cards": [
+      [
+       "Shoreline Looter",
+       "Threshold turns an unblockable looter into pure card draw."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seasons",
+   "title": "Seasons",
+   "group": "Mechanics",
+   "match": "pawprint",
+   "summary": "Mythic sorceries spending five pawprints across modes",
+   "verdict": "Four of the five are among the best cards in the set.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The five Seasons are mythic sorceries where you spend five pawprints across a list of modes. Four of them are among the best cards in the set. Red's is the exception, and people still take it early."
+     ],
+     "cards": [
+      [
+       "Season of Loss",
+       "Best card in the set by GIH. Edict, draw and drain modes."
+      ],
+      [
+       "Season of the Bold",
+       "The weak one."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "Food",
+   "group": "Mechanics",
+   "match": "Food",
+   "summary": "Artifact token: {2}, tap, sacrifice: gain 3 life",
+   "verdict": "Fuel for forage and life triggers.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Food is an artifact token: pay {2}, tap and sacrifice it to gain 3 life. In this set it does more than gain life. It fuels forage, triggers the WB life payoffs and counts for a few other cards."
+     ],
+     "cards": [
+      [
+       "Carrot Cake",
+       "Two bodies, two scrys and a Food."
+      ],
+      [
+       "Savor",
+       "Kills X/2s and leaves a Food behind."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "class",
+   "title": "Class",
+   "group": "Mechanics",
+   "match": "Class",
+   "summary": "Enchantments you level up with mana",
+   "verdict": "The green ones are premium; several others are traps.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Classes are enchantments that you level up by paying more mana over the game. The green ones are premium and a few others are traps, so judge each on its first level."
+     ],
+     "cards": [
+      [
+       "Hunter's Talent",
+       "Removal on entry that keeps paying off as you level it."
+      ],
+      [
+       "Gossip's Talent",
+       "One of the traps."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "villages",
+   "title": "Villages",
+   "group": "Mechanics",
+   "match": "Village",
+   "summary": "Uncommon lands with creature-only coloured mana and a tribal ability",
+   "verdict": "Fine in their tribe, rarely a high pick.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The Villages are uncommon lands that make coloured mana only for creature spells and have a tribal ability. They are fine in their own tribe, but in a format where nearly every deck is two colours they are rarely worth a high pick."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bombs",
+   "title": "Bombs",
+   "group": "Card lists",
+   "band": "bomb",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The cards that take over a game. Most win through card advantage; one, the black mythic flyer, ends games almost on its own."
+     ],
+     "cards": [
+      [
+       "Season of Loss",
+       "Edicts, card draw and drain in one card. Take it over anything."
+      ],
+      [
+       "Sword of Fire and Ice",
+       "A rare reprint from the Special Guests bonus sheet. Every hit is a shock and a card."
+      ],
+      [
+       "Dreamdew Entrancer",
+       "Removal for three turns, plus two cards if you target your own creature."
+      ],
+      [
+       "Valley Questcaller",
+       "A 2-mana lord for four tribes. Best in white tribal decks."
+      ],
+      [
+       "Fecund Greenshell",
+       "Card advantage engine for high-toughness creatures."
+      ],
+      [
+       "Mabel, Heir to Cragflame",
+       "Mouse lord that brings its own equipment."
+      ],
+      [
+       "Maha, Its Feathers Night",
+       "The true finisher. Opposing creatures drop to toughness 1 while it flies over with trample."
+      ],
+      [
+       "Warren Warleader",
+       "Makes an attacker or pumps the team on every attack."
+      ],
+      [
+       "Manifold Mouse",
+       "Gives a mouse double strike every turn, and offspring doubles that."
+      ],
+      [
+       "Ygra, Eater of All",
+       "Turns every other creature into Food and grows huge."
+      ],
+      [
+       "Innkeeper's Talent",
+       "A +1/+1 counter every combat. Later it doubles counters."
+      ],
+      [
+       "Beza, the Bounding Spring",
+       "A catch-up card that hands you life, tokens and mana."
+      ],
+      [
+       "Dragonhawk, Fate's Tempest",
+       "A flyer that generates cards for every power-4 creature."
+      ],
+      [
+       "Zoraline, Cosmos Caller",
+       "Flying, vigilance and recursion."
+      ],
+      [
+       "Season of the Burrow",
+       "Removal, tokens and recursion in one card."
+      ],
+      [
+       "Season of Gathering",
+       "Counters, an artifact or enchantment wipe, and card draw."
+      ],
+      [
+       "Season of Weaving",
+       "Draw, copy and mass bounce. A reason to be in blue."
+      ]
+     ]
+    },
+    {
+     "heading": "",
+     "text": [
+      "The Season to pass is red's. It wins at 53.6 and people still take it around pick 2 or 3."
+     ],
+     "cards": [
+      [
+       "Season of the Bold",
+       "The weak Season."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "removal",
+   "title": "Removal",
+   "group": "Card lists",
+   "tag": "Removal",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Each real removal spell drawn is worth about 1.4 points of win rate over an average card from the same deck. Damage, fight, destroy and -X/-X spells all add about the same. Face burn, drain, counterspells, bounce and pingers add nothing measurable as removal. No type of removal beats another, and cheap removal does no better than the 4+ mana kind. Take real removal early. It runs out."
+     ],
+     "cards": [
+      [
+       "Fell",
+       "Unconditional, 2 mana."
+      ],
+      [
+       "Feed the Cycle",
+       "Unconditional with forage."
+      ],
+      [
+       "Savor",
+       "-2/-2 and a Food."
+      ],
+      [
+       "Nocturnal Hunger",
+       "Unconditional instant."
+      ],
+      [
+       "Consumed by Greed",
+       "An edict that hits their biggest creature."
+      ],
+      [
+       "Banishing Light",
+       "Exiles any nonland permanent."
+      ],
+      [
+       "Repel Calamity",
+       "Kills anything with power or toughness 4 or more."
+      ],
+      [
+       "Sonar Strike",
+       "4 damage to a tapped or attacking creature."
+      ],
+      [
+       "Take Out the Trash",
+       "3 damage at instant speed."
+      ],
+      [
+       "Agate Assault",
+       "4 damage."
+      ],
+      [
+       "Rabid Gnaw",
+       "Bite."
+      ],
+      [
+       "Hunter's Talent",
+       "Bite on a Class."
+      ],
+      [
+       "Polliwallop",
+       "Bite for double power."
+      ],
+      [
+       "Longstalk Brawl",
+       "Fight for 1. The gift makes it safer."
+      ],
+      [
+       "Dire Downdraft",
+       "Tuck."
+      ],
+      [
+       "Sugar Coat",
+       "Turns a creature into a Food. Close enough to removal."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "title": "Traps",
+   "group": "Card lists",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Cards that do worse than their rarity or pick order suggests. These are the weakest commons and uncommons by GIH:"
+     ],
+     "cards": [
+      [
+       "Wear Down",
+       "The worst uncommon in the set."
+      ],
+      [
+       "Hoarder's Overflow",
+       ""
+      ],
+      [
+       "Starforged Sword",
+       ""
+      ],
+      [
+       "Gossip's Talent",
+       ""
+      ],
+      [
+       "War Squeak",
+       ""
+      ],
+      [
+       "Stocking the Pantry",
+       ""
+      ],
+      [
+       "Kindlespark Duo",
+       ""
+      ],
+      [
+       "Harnesser of Storms",
+       ""
+      ],
+      [
+       "Finch Formation",
+       "Offspring at its worst."
+      ]
+     ]
+    },
+    {
+     "heading": "",
+     "text": [
+      "These rares get taken on looks. All of them go between picks 3 and 5 on average, earlier than an average common, and they win less often than one:"
+     ],
+     "cards": [
+      [
+       "Alania, Divergent Storm",
+       ""
+      ],
+      [
+       "Baylen, the Haymaker",
+       ""
+      ],
+      [
+       "Sunspine Lynx",
+       ""
+      ],
+      [
+       "Helga, Skittish Seer",
+       ""
+      ],
+      [
+       "For the Common Good",
+       ""
+      ],
+      [
+       "Lunar Convocation",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
