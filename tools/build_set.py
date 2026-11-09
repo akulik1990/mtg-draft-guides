@@ -15,6 +15,7 @@ SECTION_KEYS = {"heading", "text", "list", "cards"}
 TAGS = {"removal": "Removal", "evasion": "Evasion", "card_advantage": "Card advantage", "lifegain": "Lifegain",
         "fixing_ramp": "Ramp / fixing", "combat_trick": "Combat trick", "mana_sink": "Mana sink", "protection": "Protection",
         "hate": "Sideboard"}
+# Thresholds
 MIN_SAMPLES = 500
 PAIR_SAMPLES = 200
 RARE_SHARE = 0.10
@@ -22,6 +23,7 @@ SHRINK_K = 300
 TOP_SAMPLES = 500
 
 
+# Card data
 def ordered(colours):
     return "".join(c for c in "WUBRG" if c in colours)
 
@@ -93,6 +95,7 @@ def buildCards(raw, tribes, combos, top=None):
     return sorted(cards.values(), key=lambda c: -c["gih"])
 
 
+# How each card does in each pair
 def pairScores(cards, combos, sd):
     shift = {}
     for p in combos:
@@ -128,6 +131,7 @@ def meta(raw, cards, combos, shift=None):
     }
 
 
+# Guide checks
 def checkGuide(guide, names):
     problems, prose = [f"missing {k}" for k in ("name", "released", "format") if not guide.get(k)], []
     ids = [p.get("id") for p in guide.get("pages", [])]
@@ -177,6 +181,7 @@ def tribes(guide):
     return list(dict.fromkeys(t for v in guide.get("pairs", {}).values() for t in v.get("tribes", [])))
 
 
+# Set list for the picker
 def writeIndex():
     sets = []
     for f in ROOT.glob("sets/*/guide.json"):
@@ -186,14 +191,29 @@ def writeIndex():
     (ROOT / "sets/sets.json").write_text(json.dumps(sets, indent=1) + "\n")
 
 
+def loadJson(path, what):
+    try:
+        return json.loads(Path(path).read_text())
+    except FileNotFoundError:
+        sys.exit(f"no {what} at {path}")
+    except json.JSONDecodeError as e:
+        sys.exit(f"{what} at {path} isn't valid json (line {e.lineno})")
+
+
 def main():
     if len(sys.argv) not in (3, 4):
         sys.exit("usage: build_set.py CODE all_data.json [top_data.json]")
-    code, dataset = sys.argv[1].upper(), Path(sys.argv[2])
-    top = json.loads(Path(sys.argv[3]).read_text()) if len(sys.argv) == 4 else None
+    code = sys.argv[1].upper()
     d = ROOT / "sets" / code
-    raw = json.loads(dataset.read_text())
-    guide = json.loads((d / "guide.json").read_text())
+
+    # Load 17lands data and the guide
+    raw = loadJson(sys.argv[2], "17lands dataset")
+    top = loadJson(sys.argv[3], "top players dataset") if len(sys.argv) == 4 else None
+    guide = loadJson(d / "guide.json", f"guide for {code}")
+    if "card_ratings" not in raw:
+        sys.exit(f"{sys.argv[2]} has no card_ratings, is it a 17lands set file?")
+
+    # Build cards, apply guide corrections
     combos = list(guide.get("pairs") or PAIRS)
     cards = buildCards(raw, tribes(guide), combos, top)
     for c in cards:
@@ -202,6 +222,7 @@ def main():
             c.update(fix)
             c["fits"] = [p for p in combos if fits(c["colors"], c["cost"], p)]
             c["pairs"] = {p: d for p, d in c["pairs"].items() if p in c["fits"]}
+    # Set stats and pair scores
     m0 = meta(raw, cards, combos)
     shift = pairScores(cards, combos, m0["sd"])
     out = {"meta": meta(raw, cards, combos, shift), "cards": cards}
@@ -210,6 +231,7 @@ def main():
         print(f"  note: the dataset covers {days} days ({out['meta']['start']} to {out['meta']['end']}); early-format data reads differently")
     if top:
         out["meta"]["top_games"] = (top.get("meta") or {}).get("game_count")
+    # Write cards.json and the set list
     (d / "cards.json").write_text(json.dumps(out, separators=(",", ":"), ensure_ascii=False))
     writeIndex()
     problems = checkGuide(guide, {c["name"] for c in cards})

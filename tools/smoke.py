@@ -16,6 +16,7 @@ COLOURS = "WUBRG"
 REFERENCE = ["cards", "cards?view=list", "removal", "instant-speed", "sleepers", "top-players", "splash"]
 
 
+# Every page a set has
 def routes(code):
     guide = json.loads((ROOT / "sets" / code / "guide.json").read_text())
     pairs = list(guide.get("pairs") or ["WU", "UB", "BR", "RG", "GW", "WB", "UR", "BG", "RW", "GU"])
@@ -25,6 +26,7 @@ def routes(code):
             "group/Colours", "group/Colour%20pairs", *(f"group/{g.replace(' ', '%20')}" for g in groups), *REFERENCE]
 
 
+# Load a page headless, return the text of <main>
 def mainText(url):
     out = subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--virtual-time-budget=2500", "--dump-dom", url],
                          capture_output=True, text=True, timeout=60).stdout
@@ -35,6 +37,8 @@ def mainText(url):
 def main():
     if not CHROME:
         sys.exit("needs google-chrome or chromium on PATH")
+    if not (ROOT / "sets/sets.json").exists():
+        sys.exit("no sets/sets.json, run build_set.py first")
     handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(ROOT))
     server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
     handler.log_message = lambda *a: None

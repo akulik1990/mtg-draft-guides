@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 STAMP = time.strftime("%Y%m%d%H%M%S")
 
+# css/js links and module imports, with or without an old stamp
 REF = re.compile(r'''((?:href|src)="assets/[^"?]+\.(?:css|js)|from "\.{1,2}/[^"?]+\.js)(?:\?v=\d+)?(")''')
 
 for path in [ROOT / "index.html", *ROOT.glob("assets/js/**/*.js")]:
