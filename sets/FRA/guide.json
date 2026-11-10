@@ -176,6 +176,10 @@
       [
        "Desperate Futurescribe",
        "A flier that puts a counter on a creature every turn you surveil."
+      ],
+      [
+       "Fatehold Charm",
+       "Draw and empower Jace 2, bounce a spell or creature, or +1/+2 to the team."
       ]
      ]
     }
@@ -221,6 +225,14 @@
       [
        "Void Extrapolator",
        "Mills three, then grows with threshold."
+      ],
+      [
+       "Theorix Charm",
+       "Soft counter for a noncreature spell, -2/-2, or mill three and draw."
+      ],
+      [
+       "Paradox Shaper",
+       "Prepares again every upkeep, so its 1-mana spell mills three each turn. Below average."
       ]
      ]
     }
@@ -258,6 +270,14 @@
       [
        "Craftwork Crusher",
        "The top end the deck ramps into. Picks two of 4 damage, a Cadet and a card."
+      ],
+      [
+       "Konstrari Charm",
+       "6 damage to a flier, two counters and trample, or three colourless mana. Often goes late."
+      ],
+      [
+       "Woodwork Prodigy",
+       "Prepares again every upkeep and its spell makes a Heartwood token. Grades C, so don't take it early."
       ]
      ]
     }
@@ -380,6 +400,10 @@
       [
        "Grim Repriser",
        "Comes back from the graveyard for 2 mana on a turn they took noncombat damage."
+      ],
+      [
+       "Stingerquill Charm",
+       "3 damage to any target, first strike and deathtouch, or a hasty Cadet."
       ]
      ]
     }
@@ -446,6 +470,10 @@
       [
        "Vigorbloom Vanguard",
        "A 2-drop whose spell gives a counter and 1 life."
+      ],
+      [
+       "Vigorbloom Charm",
+       "Protection, a card and 3 life, or a counter and a fight. The fight is removal."
       ]
      ]
     }
