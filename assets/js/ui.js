@@ -1,4 +1,4 @@
-import { band, grade } from "./data.js?v=20261110005414";
+import { band, grade } from "./data.js?v=20261110011114";
 
 export const esc = s => String(s ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
 

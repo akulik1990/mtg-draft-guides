@@ -1,5 +1,5 @@
-import { inPair, myPair, pairScore, searchIndex, verdict } from "./data.js?v=20261110005414";
-import { esc, pips } from "./ui.js?v=20261110005414";
+import { inPair, myPair, pairScore, searchIndex, verdict } from "./data.js?v=20261110011114";
+import { esc, pips } from "./ui.js?v=20261110011114";
 
 const indexes = new WeakMap();
 

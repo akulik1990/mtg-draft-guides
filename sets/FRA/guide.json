@@ -1,0 +1,987 @@
+{
+ "name": "Reality Fracture",
+ "released": "2026-10-02",
+ "format": "Premier Draft",
+ "corrections": {
+  "Sanctum Lurker": {
+   "tags": [
+    "Lifegain"
+   ]
+  },
+  "Gideon the Oathless": {
+   "tags": []
+  },
+  "Ingris Stingerquill": {
+   "tags": [
+    "Evasion",
+    "Mana sink"
+   ]
+  },
+  "Tinybones, Pocket Nuisance": {
+   "tags": []
+  },
+  "Screeching Soulbreaker": {
+   "tags": [
+    "Evasion",
+    "Lifegain"
+   ]
+  },
+  "Stinging Vitriol": {
+   "tags": []
+  },
+  "Cast Away Doubt": {
+   "tags": []
+  },
+  "Tetsuko Umezawa, Pursuer": {
+   "tags": []
+  },
+  "Emrakul, the Exigent Doom": {
+   "tags": [
+    "Ramp / fixing",
+    "Evasion"
+   ]
+  },
+  "Koth, the Geomancer": {
+   "tags": [
+    "Ramp / fixing"
+   ]
+  },
+  "Massacre Girl, Most Wanted": {
+   "tags": [
+    "Lifegain"
+   ]
+  },
+  "Eye of Jace": {
+   "tags": [
+    "Card advantage",
+    "Lifegain"
+   ]
+  },
+  "Budding Insurgent": {
+   "tags": []
+  },
+  "Mabel, Bitter Recluse": {
+   "tags": []
+  },
+  "Austere Command": {
+   "tags": [
+    "Removal"
+   ]
+  }
+ },
+ "notes": {
+  "Mindseeker Oculus": "The best common. A 3-drop that comes with a Jace on 4 loyalty.",
+  "Extended Absence": "Exiles a creature at instant speed. Black's best common.",
+  "No Admittance": "3 damage to anything for 2 mana. Red's best common.",
+  "Protege's Awakening": "A card and a Jace on 6, and it often comes around pick 5.",
+  "Hexhaven Battalion": "Three 2/2s for 6. White's best common.",
+  "Surgical Precision": "Kills a big creature, or draws when there is nothing to kill.",
+  "Something Worth Saving": "Card selection, graveyard fuel and a little life. Green's best common, and it goes late."
+ },
+ "colours": {
+  "W": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Fliers, Cadet tokens and life gain. Average commons and uncommons. Its best home by far is WU, the top pair; the other white pairs sit in the bottom half."
+     ]
+    }
+   ]
+  },
+  "U": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The deepest colour. Blue has the best commons in the set, more empower cards than any other colour, and three of the four best pairs: WU, UB and UR. It is light on creatures, so its decks win with fliers, card draw and Jace tokens."
+     ]
+    }
+   ]
+  },
+  "B": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Removal and graveyard creatures. Black has the most removal spells in the set, with red close behind. Its uncommons still average the lowest of any colour, so take the kill spells and let the rest come to you."
+     ]
+    }
+   ]
+  },
+  "R": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Burn, prowess and Heartwood. Red has the weakest commons, but the best card in the set is a red mythic and its removal is good. RG and UR are its strong pairs."
+     ]
+    }
+   ]
+  },
+  "G": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The weakest colour by its pairs' deck win rate. Green has no removal graded B or better and only two strong cards. It brings big creatures and ramp. Take it when it is clearly open, and pair it with red."
+     ]
+    }
+   ]
+  }
+ },
+ "pairs": {
+  "WU": {
+   "archetypes": [
+    {
+     "name": "Surveil fliers",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Scry and surveil every turn, then attack with fliers that grow when you do. The best pair in the format by deck win rate. Good WU decks run the least removal of any pair (about four spells) and the most card draw, so the deck races in the air and bounces what it can't kill."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "scry and surveil",
+      "payoff_cards": [
+       "Denzilore Fatehold",
+       "Desperate Futurescribe",
+       "Diviner of Victory",
+       "Proctor of Potential",
+       "Proft, Consulting Detective",
+       "Prudent Fateseer",
+       "Saheeli, Consul of Oversight",
+       "Surveillance Phantasm"
+      ],
+      "enabler_cards": [
+       "Chandra, Chill of Compliance",
+       "Consider",
+       "Enlightened Confidant",
+       "Eye of Jace",
+       "Fatehold Chronologist",
+       "Refute Destiny",
+       "Semester Foreseer",
+       "Way of the Healer",
+       "Your Fate Ends Here",
+       "Yuriko, Hope from the Shadows"
+      ]
+     },
+     "key": [
+      [
+       "Prudent Fateseer",
+       "Pumps the team whenever you scry or surveil."
+      ],
+      [
+       "Desperate Futurescribe",
+       "A flier that puts a counter on a creature every turn you surveil."
+      ]
+     ]
+    }
+   ]
+  },
+  "UB": {
+   "archetypes": [
+    {
+     "name": "Graveyard control",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Fill the graveyard, turn on threshold (seven or more cards in it) and win the long game with card draw and black removal. The second best pair. Good UB decks play fewer creatures than most, about thirteen or fourteen."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "a full graveyard",
+      "payoff_cards": [
+       "Eye of Jace",
+       "Loot, the Anomaly",
+       "Null Summoner",
+       "Proft, Sinister Mastermind",
+       "Recursive Recruitment",
+       "Theorix Metamage",
+       "Void Extrapolator"
+      ],
+      "enabler_cards": [
+       "Dark Matter Manipulator",
+       "Liliana the Repentant",
+       "Paradox Shaper",
+       "Primal Witchstalker",
+       "Something Worth Saving",
+       "Theorix Charm"
+      ]
+     },
+     "key": [
+      [
+       "Recursive Recruitment",
+       "Two Cadets now, two bigger ones later from the graveyard."
+      ],
+      [
+       "Void Extrapolator",
+       "Mills three, then grows with threshold."
+      ]
+     ]
+    }
+   ]
+  },
+  "RG": {
+   "archetypes": [
+    {
+     "name": "Heartwood ramp",
+     "mechanic": "heartwood",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Make Heartwood tokens for mana, then land the biggest threats in the format a turn or two early. Good RG decks run the most mana sources and the most six-drops of any pair, and around seven removal spells."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "ramp",
+      "enabler_cards": [
+       "Aerid Konstrari",
+       "Heartwood Crafter",
+       "Hungering Puppetbeast",
+       "Konstrari Improviser",
+       "Tenured Tethermage",
+       "Woodwork Prodigy"
+      ]
+     },
+     "key": [
+      [
+       "Heartwood Crafter",
+       "A 1-drop whose spell makes a Heartwood token."
+      ],
+      [
+       "Craftwork Crusher",
+       "The top end the deck ramps into. Picks two of 4 damage, a Cadet and a card."
+      ]
+     ]
+    }
+   ]
+  },
+  "UR": {
+   "archetypes": [
+    {
+     "name": "Spells",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Cheap instants and sorceries trigger prowess creatures and spell payoffs. Good UR decks play the fewest creatures of any pair, under thirteen, and the most evasion. The payoffs are thin, so most of the deck is just good blue and red spells."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "noncreature spells",
+      "payoff_cards": [
+       "Chandra's Emberling",
+       "Cryotheory Adept",
+       "Grim Repriser",
+       "Pompous Battlemage",
+       "Pyre Rhymer",
+       "Ruric Thar, Biomagus",
+       "Saheeli, Jewel of Avishkar",
+       "Tetsuko Umezawa, Pursuer",
+       "Tomik, Izzet Sparkmage",
+       "Traxos, Academy Guardian",
+       "Variable Chaser",
+       "Vraska, Soul of Stone",
+       "Winter, Team Player"
+      ]
+     },
+     "key": [
+      [
+       "Saheeli, Jewel of Avishkar",
+       "A hasty flying Thopter for every noncreature spell."
+      ],
+      [
+       "Clash of Elements",
+       "Instant-speed tuck. They choose: top of the library and 2 damage, or the bottom."
+      ]
+     ]
+    }
+   ]
+  },
+  "BG": {
+   "archetypes": [
+    {
+     "name": "Value creatures",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Creatures that kill or draw something when they enter, backed by black removal. Good BG decks have plenty of both: around sixteen creatures and seven removal spells. The graveyard helps a little, but card quality matters more."
+       ]
+      }
+     ],
+     "key": [
+      [
+       "Primal Witchstalker",
+       "Menace, mills four and gets a land back."
+      ],
+      [
+       "Hapatra, the Desert Fang",
+       "Shrinks or kills a creature, scaled by your graveyard."
+      ]
+     ]
+    }
+   ]
+  },
+  "BR": {
+   "archetypes": [
+    {
+     "name": "Burn",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Ping the opponent with damage outside combat, then cash in on cards that check for it. The payoffs are weak (none grades above C+), but the removal isn't: good BR decks run the most removal of any pair, about seven or eight spells."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "noncombat damage",
+      "payoff_cards": [
+       "Command the Stage",
+       "Grim Repriser",
+       "Massacre Girl, Most Wanted",
+       "Master of Barbs",
+       "Tomik, Izzet Sparkmage",
+       "Whiplash Wordsmith"
+      ],
+      "enabler_cards": [
+       "Ajani's Anguish",
+       "Chandra, Torch of Defiance",
+       "Extended Absence",
+       "Eye of Jace",
+       "Hallway Heckler",
+       "Ingris Stingerquill",
+       "Koth, the Geomancer",
+       "No Admittance",
+       "Sanctum Lurker",
+       "Screeching Soulbreaker",
+       "Stingerquill Charm",
+       "Stingerquill Voxmancer",
+       "Stinging Vitriol",
+       "Tether Technician",
+       "Tinybones, Pocket Nuisance",
+       "Warrior's Blades"
+      ]
+     },
+     "key": [
+      [
+       "Stingerquill Voxmancer",
+       "Pings the opponent for 1 on every turn it is prepared."
+      ],
+      [
+       "Grim Repriser",
+       "Comes back from the graveyard for 2 mana on a turn they took noncombat damage."
+      ]
+     ]
+    }
+   ]
+  },
+  "GW": {
+   "archetypes": [
+    {
+     "name": "Life gain",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Gain a little life every turn and turn it into cards and counters. Good GW decks play the most creatures of any pair and have the least evasion, so they win on the ground. Below average by deck win rate."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "life gain",
+      "payoff_cards": [
+       "Ajani Resolute",
+       "Bloombrute",
+       "Enlightened Confidant",
+       "Kwia Vigorbloom",
+       "Lyra, Archangel of Dawn",
+       "Titanbones, Towering Heart",
+       "Unflinching Hortimancer",
+       "Way of the Mentor"
+      ],
+      "enabler_cards": [
+       "Apex Witchstalker",
+       "Archive Arbiter",
+       "Blessed Ghoul",
+       "Blossom-Blessed Angel",
+       "Break Under Pressure",
+       "Edgar, Ancient Bloodlord",
+       "Emergency Phytomedic",
+       "Extended Absence",
+       "Eye of Jace",
+       "Greenhouse Propagator",
+       "Koth of the Homestead",
+       "Liliana the Faultless",
+       "Massacre Girl, Most Wanted",
+       "Medic's Kitesail",
+       "Restore with Empathy",
+       "Sanctum Lurker",
+       "Screeching Soulbreaker",
+       "Solarium Sentry",
+       "Something Worth Saving",
+       "Surgical Precision",
+       "Terminal Criticism",
+       "Thalia, the Survivor",
+       "Vigorbloom Charm",
+       "Vigorbloom Vanguard",
+       "Warrior's Blades",
+       "Way of the Paradox"
+      ]
+     },
+     "key": [
+      [
+       "Bloombrute",
+       "Draws a card the first time you gain life each turn."
+      ],
+      [
+       "Vigorbloom Vanguard",
+       "A 2-drop whose spell gives a counter and 1 life."
+      ]
+     ]
+    }
+   ]
+  },
+  "WB": {
+   "archetypes": [
+    {
+     "name": "Sacrifice",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Trade creatures off and profit when they die. The death payoffs are weak, none grades above C+, so treat it as a removal deck with a small bonus. Good WB decks run about seven removal spells."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "creatures dying",
+      "payoff_cards": [
+       "Bloodline Recollector",
+       "Darklight Phoenix",
+       "Edgar, Ancient Bloodlord",
+       "Gardenize",
+       "Massacre Girl, Most Wanted",
+       "Way of the Necromancer"
+      ],
+      "enabler_cards": [
+       "Hungering Puppetbeast",
+       "Loot, the Anomaly",
+       "Silence the Echo",
+       "Way of the Deathbringer",
+       "Winter, Tormented Loner"
+      ]
+     },
+     "key": [
+      [
+       "Twisted Fates",
+       "Destroys any nonland permanent. The best gold card in the pair."
+      ],
+      [
+       "Edgar, Ancient Bloodlord",
+       "Gains life when your creatures die and eats spare ones."
+      ]
+     ]
+    }
+   ]
+  },
+  "RW": {
+   "archetypes": [
+    {
+     "name": "Counters aggro",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Put +1/+1 counters on cheap creatures and attack. Second worst by deck win rate. Its gold uncommons are below average, so draft it as plain aggro with good red and white cards and don't chase the theme."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "+1/+1 counters",
+      "payoff_cards": [
+       "Edgar, Moonlit Sovereign",
+       "Gallia, Tragic Host",
+       "Gallia, the Merrymaker",
+       "Graft Surgeon",
+       "Tomik, Orzhov Lawmage",
+       "Vigorbloom Vanguard",
+       "Warrior's Blades"
+      ],
+      "enabler_cards": [
+       "Avatar of Burgeoning Echoes",
+       "Awaken the Inferno",
+       "Blossom-Blessed Angel",
+       "Chandra's Emberling",
+       "Charge the Sanctum",
+       "Command the Stage",
+       "Danitha, Spear of Agony",
+       "Denzilore Fatehold",
+       "Desperate Futurescribe",
+       "Edgar, Ancient Bloodlord",
+       "Emergency Phytomedic",
+       "Fateshaper Aspirant",
+       "Generous Revival",
+       "Guiding Hydra",
+       "Hungering Puppetbeast",
+       "Inspired Tethermage",
+       "Jiang Yanggu, Alone",
+       "Konstrari Charm",
+       "Koth of the Homestead",
+       "Liliana the Repentant",
+       "Mabel, Valley Hero",
+       "Massacre Girl, Most Wanted",
+       "Predictive Preparations",
+       "Proft, Consulting Detective",
+       "Recursive Recruitment",
+       "Tam's Resistance",
+       "Tenured Tethermage",
+       "Teyo, Diamondblade Mage",
+       "Teyo, Lightshield Expert",
+       "The Theorist, Jace Beleren",
+       "Titanbones, Towering Heart",
+       "Twisted Fates",
+       "Unflinching Hortimancer",
+       "Vigorbloom Charm",
+       "Vinelasher Adept",
+       "Yoshimaru, Beloved Companion",
+       "Yoshimaru, Scrappy Stray"
+      ]
+     },
+     "key": [
+      [
+       "Warrior's Blades",
+       "3 damage when it enters, then an equipment that is cheap to move onto creatures with counters."
+      ],
+      [
+       "Mabel, Valley Hero",
+       "Puts a counter on a creature whenever one of yours enters."
+      ]
+     ]
+    }
+   ]
+  },
+  "GU": {
+   "archetypes": [
+    {
+     "name": "Empower Jace",
+     "mechanic": "empower",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Build up a big Jace token and use Ways and other planeswalker cards to make it matter. The worst pair by deck win rate, even though blue is the deepest colour. Blue's empower cards are better spent in WU or UB unless green is clearly open."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "Jace",
+      "payoff_cards": [
+       "Ajani Unrelenting",
+       "Avatar of Burgeoning Echoes",
+       "Kiora of Salt and Sand",
+       "Mind Meanderer",
+       "Sanctum Lurker",
+       "Tomik, Orzhov Lawmage",
+       "Way of the Cryomancer",
+       "Way of the Deathbringer",
+       "Way of the Healer",
+       "Way of the Mind Sculptor",
+       "Way of the Paradox",
+       "Way of the Pyromancer",
+       "Way of the Warlord",
+       "Way of the Wildspeaker"
+      ],
+      "enabler_cards": [
+       "Academic Ascent",
+       "Arcane Amphisbaena",
+       "Campus Crier",
+       "Countersculpt",
+       "Fatehold Charm",
+       "Hexhaven Battalion",
+       "Inspired Tethermage",
+       "Jace's Machinations",
+       "Jace, Reality Sculptor",
+       "Keeper of the Quiet Hour",
+       "Mindseeker Oculus",
+       "No Admittance",
+       "Overwrite the Multiverse",
+       "Plan for All Outcomes",
+       "Protege's Awakening",
+       "Repurposed Enforcer",
+       "Rewrite Regrets",
+       "Solve for Disappointment",
+       "Tam's Resistance",
+       "Theorist's Proxy",
+       "Theorist's Sanctum",
+       "Violent Echoes",
+       "Vraska's Final Mercy",
+       "Way of the Mentor",
+       "Way of the Necromancer"
+      ]
+     },
+     "key": [
+      [
+       "Mind Meanderer",
+       "A 6-mana flier that fights when it enters."
+      ],
+      [
+       "Kiora of Salt and Sand",
+       "Gives planeswalkers an ability that makes an 8/8. Needs a big Jace."
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "pages": [
+  {
+   "id": "overview",
+   "title": "The set",
+   "group": "Basics",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Reality Fracture is a multiverse set built around planeswalkers. The ally pairs are the five colleges of Hexhaven, each with a Charm and its own plan. The enemy pairs each follow one planeswalker. Across every colour, empower cards put loyalty on a Jace token you control.",
+      "The numbers come from 17Lands Premier Draft data, 29 September to 8 November 2026. Deck counts and building figures are from players with a 60%+ win rate."
+     ]
+    },
+    {
+     "heading": "The format in short",
+     "list": [
+      "Blue is the deepest colour. It has the best commons (mean GIH 56.4, the next colour 54.0) and plays in three of the four best pairs.",
+      "WU has the best deck win rate and GU the worst, even though both are blue. UB, RG and UR follow WU.",
+      "Rares decide a lot of games: 15 rares and mythics win at 62 or more, and no common reaches 60. Half of the bombs are planeswalkers.",
+      "Black and red have the most removal. Green has none graded B or better and is the weakest colour.",
+      "Play two colours. About one deck in seven among good players adds a third, and no three-colour combination beats the best pairs.",
+      "Every pair has a common dual land that enters untapped if you control a planeswalker. The Jace token counts."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drafting",
+   "title": "How to draft it",
+   "group": "Basics",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Take power first. Bombs, rare planeswalkers and removal come before synergy. None of the pair themes showed a measurable edge in deck results, so the better card is usually right.",
+      "Read pack 1. What comes late in pack 1 says something about pack 3; pack 2 says very little. Top drafters ended in a pair their pack 1 neighbours left open about half the time (47%) and in a cut pair less than one time in five, but their results were the same either way.",
+      "Settle by the middle of pack 2. Strong drafters keep the pair they hold at ten cards about seven times in ten, and at fifteen cards about eight in ten. When they move, they change one colour. Changing both after the fifth card almost never happens."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "building",
+   "title": "Building a deck",
+   "group": "Basics",
+   "stats": [
+    [
+     "Creatures",
+     "14.7",
+     "12 to 18 in most decks"
+    ],
+    [
+     "Removal",
+     "6",
+     "WU about 4, BR about 7.6"
+    ],
+    [
+     "Card draw",
+     "8.6",
+     "spells and creatures that draw"
+    ],
+    [
+     "Lands",
+     "16.8",
+     "16 is fine"
+    ],
+    [
+     "Average mana value",
+     "3.1",
+     ""
+    ],
+    [
+     "Three colours",
+     "14%",
+     "of good players' decks"
+    ]
+   ],
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Average counts from 30,683 decks of players with a 60%+ win rate. These describe a normal deck. Card quality is what makes it win.",
+      "Play enough removal. Decks with two removal spells or fewer win about three points less, and that holds for strong and weak players alike.",
+      "Sixteen lands is fine, and a little better than seventeen when the deck has two or more cheap card-flow spells: 2 mana or less, with draw, scry or surveil. Empower counts, since the Jace token surveils.",
+      "Within a pair, decks with a higher average mana value win slightly more. Don't cut good five- and six-drops to lower the curve.",
+      "A short creature count or few two-drops costs nothing measurable when the cards are good. Duals that enter tapped cost nothing measurable either, so play the ones in your colours."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "empower",
+   "title": "Empower Jace",
+   "group": "Mechanics",
+   "match": "empower jace",
+   "summary": "Puts loyalty counters on your Jace token, making one first if you have none. The token can surveil 1 or draw a card.",
+   "verdict": "In every colour, most of all blue. A good empower card is a good card in any deck, and the Ways make it better.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The Jace token has two abilities: −1 to surveil 1 and −3 to draw a card. A big token is a card-advantage engine that also soaks up attacks. Several cards check whether you control a Jace or a planeswalker, including the common dual lands.",
+      "The Ways are uncommon enchantments that empower Jace by 2 to 7 and add a planeswalker bonus. In deck results, empower cards did about half a point per card better next to a Way and a third of a point worse without one. Read that as a lean, not a rule."
+     ],
+     "cards": [
+      [
+       "Mindseeker Oculus",
+       "The best common in the set."
+      ],
+      [
+       "Protege's Awakening",
+       "A card and a Jace on 6."
+      ],
+      [
+       "Way of the Mind Sculptor",
+       "Draws a card whenever you use a −2 or bigger ability."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prepared",
+   "title": "Prepared",
+   "group": "Mechanics",
+   "match": "prepared",
+   "summary": "Creatures with a spell attached. While the creature is prepared, you may cast a copy of the spell, which unprepares it.",
+   "verdict": "A small bonus in every colour, mostly on the college pairs' gold cards. Rate each card on its own.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Most prepared creatures enter prepared, so you get the spell once. A few become prepared again at the start of each of your turns and give you the spell every turn. Each college pair has three gold prepared creatures. As a group they win a little less often than an average card."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "heartwood",
+   "title": "Heartwood",
+   "group": "Mechanics",
+   "match": "heartwood",
+   "summary": "A red and green artifact token that taps for red or green mana.",
+   "verdict": "RG only. The mana that lets RG cast its top end early.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Six cards make Heartwood tokens, five of them RG gold and one green rare. The tokens are artifacts, so cards that care about artifacts count them too."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bombs",
+   "title": "Bombs",
+   "group": "Card lists",
+   "band": "bomb",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The cards that win games on their own. Half of them are planeswalkers, and the red one is far ahead of the rest."
+     ],
+     "cards": [
+      [
+       "Ajani Unrelenting",
+       "The best card in the set by more than four points. Makes a Cadet on every loyalty ability, and −3 deals 4 to every creature except your tokens."
+      ],
+      [
+       "Uldaros Theorix",
+       "A 6-mana flier that recasts spells from your graveyard for free."
+      ],
+      [
+       "The Theorist, Jace Beleren",
+       "Draws a card on each of their turns and makes a blocker every turn."
+      ],
+      [
+       "Sublime Epiphany",
+       "Counter, bounce, copy and draw in one instant."
+      ],
+      [
+       "Garruk, Veiled Butcher",
+       "+2 shrinks a creature, −2 makes each player sacrifice one and leaves you a 4/4."
+      ],
+      [
+       "Garruk, Curse Breaker",
+       "Makes 4/4 tramplers and draws when big creatures enter."
+      ],
+      [
+       "Mind Twist",
+       "Random discard for X. Wins long games."
+      ],
+      [
+       "Overwrite the Multiverse",
+       "Exiles every creature and empowers Jace for each one."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "removal",
+   "title": "Removal",
+   "group": "Card lists",
+   "tag": "Removal",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Unconditional removal adds the most to a deck, damage-based removal about half as much, and removal that only hits some targets close to nothing. Counterspells count for a little over half a removal spell. Black and red have most of it; green has none graded B or better."
+     ],
+     "cards": [
+      [
+       "Break Under Pressure",
+       "An edict that takes their biggest creature or planeswalker."
+      ],
+      [
+       "Violent Echoes",
+       "6 damage, and the extra empowers Jace."
+      ],
+      [
+       "Multiply by Zero",
+       "Sets a creature to 0/0 at instant speed. Counters on it still count."
+      ],
+      [
+       "Last Gasp",
+       "-3/-3 at instant speed."
+      ],
+      [
+       "Your Fate Ends Here",
+       "Destroys a creature or planeswalker with mana value 3 or more."
+      ],
+      [
+       "Awaken the Inferno",
+       "6 damage and a counter on your creature."
+      ],
+      [
+       "Memory Trap",
+       "Exiles any nonland permanent while it stays."
+      ],
+      [
+       "Wrath of the Bloodmane",
+       "4 damage at instant speed."
+      ],
+      [
+       "Prophesied End",
+       "Destroys any creature. Kill an attacker and they draw nothing."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "title": "Traps",
+   "group": "Card lists",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Cards that get taken early and lose. All of them go before pick 4 on average and win less often than an average card:"
+     ],
+     "cards": [
+      [
+       "Darklight Phoenix",
+       ""
+      ],
+      [
+       "Ajani Resolute",
+       "The only weak planeswalker in the set."
+      ],
+      [
+       "Emrakul, the Exigent Doom",
+       "Ten mana is too much."
+      ],
+      [
+       "Bloodline Recollector",
+       ""
+      ],
+      [
+       "Woodwork Prodigy",
+       ""
+      ],
+      [
+       "Pyre Rhymer",
+       ""
+      ]
+     ]
+    },
+    {
+     "heading": "",
+     "text": [
+      "The ten weakest commons and uncommons by GIH, worst first:"
+     ],
+     "cards": [
+      [
+       "Way of the Necromancer",
+       "The worst common or uncommon in the set."
+      ],
+      [
+       "Flourishing Grapple",
+       ""
+      ],
+      [
+       "Yargle, Glutton of Urborg",
+       ""
+      ],
+      [
+       "Arni, Renowned Champion",
+       ""
+      ],
+      [
+       "Essence Burn",
+       "Only hits black or green creatures."
+      ],
+      [
+       "Yargle, Goliath of Otaria",
+       ""
+      ],
+      [
+       "Winter, Team Player",
+       ""
+      ],
+      [
+       "Loot, the Anomaly",
+       ""
+      ],
+      [
+       "Rampart Hunter",
+       "The worst common."
+      ],
+      [
+       "Predictive Preparations",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

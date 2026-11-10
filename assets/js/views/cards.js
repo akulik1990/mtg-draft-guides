@@ -1,6 +1,6 @@
-import { COLOURS, RARITIES, fitsColours } from "../data.js?v=20261110005414";
-import { grade } from "../data.js?v=20261110005414";
-import { esc, grid, pips } from "../ui.js?v=20261110005414";
+import { COLOURS, RARITIES, fitsColours } from "../data.js?v=20261110011114";
+import { grade } from "../data.js?v=20261110011114";
+import { esc, grid, pips } from "../ui.js?v=20261110011114";
 
 const TYPES = ["Creature", "Instant", "Sorcery", "Enchantment", "Artifact", "Planeswalker", "Land"];
 const SORTS = { gih: "Win rate (GIH)", pair: "Win rate in the chosen pair", alsa: "Pick order (ALSA)", iwd: "Gain when drawn (IWD)",

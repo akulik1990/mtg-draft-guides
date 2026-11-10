@@ -1,5 +1,5 @@
-import { band, grade, inPair, myPair, pairScore, RARITIES, verdict } from "./data.js?v=20261110005414";
-import { esc, link, pips } from "./ui.js?v=20261110005414";
+import { band, grade, inPair, myPair, pairScore, RARITIES, verdict } from "./data.js?v=20261110011114";
+import { esc, link, pips } from "./ui.js?v=20261110011114";
 
 const dlg = document.getElementById("card-dialog");
 const body = document.getElementById("card-dialog-body");

@@ -1,5 +1,5 @@
-import { COLOURS, colouredPips, isInstantSpeed, pairLabel, playable } from "../data.js?v=20261110005414";
-import { esc, gih, grid, link, pips, section } from "../ui.js?v=20261110005414";
+import { COLOURS, colouredPips, isInstantSpeed, pairLabel, playable } from "../data.js?v=20261110011114";
+import { esc, gih, grid, link, pips, section } from "../ui.js?v=20261110011114";
 
 function block(headingHtml, body, extra = "") { return `<section class="block"><h2>${headingHtml}</h2>${body}${extra}</section>`; }
 
@@ -53,7 +53,7 @@ export const REFERENCE = {
     render(set) {
       const m = set.meta, pool = playable(set);
       const bombs = best(pool.filter(c => c.gih >= m.bands.bomb), 12);
-      const removal = best(pool.filter(c => c.tags.includes("Removal") && c.gih >= m.mean), 10);
+      const removal = best(pool.filter(c => c.tags.includes("Removal") && c.gih >= m.mean && !bombs.includes(c)), 10);
       const pairs = set.pairList.map(p => `<li>${link(set, `pair/${p}`, `${pips(p)}<b>${p}</b> <span>${esc(pairLabel(set, p))}</span>`)}<em>${m.deck_wr[p]?.toFixed(1) ?? "n/a"}</em></li>`).join("");
       return intro(set, "first-picks") + `<p class="lead">For the first picks, before you are in a pair. Take the strongest card,
         stay open and watch what comes late.</p>
