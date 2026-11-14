@@ -1,0 +1,1422 @@
+{
+ "name": "Star Trek",
+ "released": "2026-11-10",
+ "format": "Premier Draft",
+ "corrections": {},
+ "notes": {
+  "70,000 Light-Years from Home": "Clean exile, but it hands them a land. Draftsim's top white uncommon, below average in the data.",
+  "A Good Day to Die": "One-mana pump that draws if it dies. Reviewers marked tricks down. The data agree.",
+  "Academy Instructor": "Officer payoff for noncreature spells. Needs a red spell-heavy deck, but it wins above average.",
+  "Adversary by Algorithm": "Makes an artifact token and recurs. Reviewers compared it to a classic; it wins above average.",
+  "All Good Things . . .": "Reviewers graded it B for repeated card advantage. It wins above average.",
+  "Amok Time": "Fights, gains life, then returns a creature. Three chapters of value, and it wins strongly.",
+  "Andoria": "Blue-red tapped dual that gains a life. Fixing filler.",
+  "Andromedan Automatons": "Searches for copies of itself. Reviewers said play several, but it wins below average.",
+  "Antagonist Incorporator": "Cheap artifact body that turns combat damage into Borg tokens. White artifact decks want it, early data.",
+  "Anthropological Mission": "Quest enchantment that loots. Reviewers gave D+. The data agree.",
+  "Armus, Skin of Evil": "Seven-mana menace finisher, or discard it for cheap removal. Flexible, and it wins strongly.",
+  "Artificial Anomaly": "Black land that sacrifices late to drain. Playable filler.",
+  "Assault Drone": "Artifact anthem that counts itself. Reviewers gave C-.",
+  "Assembly Specialist": "Artifact body that brings a Borg token. Good for artifact counts.",
+  "Astute Terraformer": "Two-drop that pumps cheaply once lands vary. Reviewers said C-; it wins above average.",
+  "Automated Warfare System": "Flying body that can sacrifice for cards. Not much to sacrifice.",
+  "Bajor": "Red-white tapped dual that gains a life. Filler fixing.",
+  "Bat'leth": "Equipment that shrinks a creature on entering. Reviewers gave C++. The data agree.",
+  "Battle-Scarred Survivalist": "Menace body with a slow grow trigger. Bad on its own.",
+  "Beckett Mariner, Impetuous Ensign": "First strike two-drop that pings after repeated taps. Red aggro filler.",
+  "Blastoneuron": "Four-mana flyer that borrows a cheap creature from the graveyard. Reviewers liked the design, and it wins well.",
+  "Blood Crypt": "Black-red shock land. Fixing only, so judge it as a dual.",
+  "Boarding Action": "Two-mana hasty token with a rebuy through beam me up. Red filler that wins well.",
+  "Brad Boimler, Eager Ensign": "Lifelink two-drop with a counters bonus. Fine in white counters decks.",
+  "Breeding Pool": "Blue-green shock land. Fixing only, so judge it as a dual.",
+  "Cantankerous Captain": "Reviewers graded it C-; it wins well above average. Pumps one attacker each combat.",
+  "Captain Benjamin Sisko": "Five-colour payoff that makes officers per dilemma. Hard to cast.",
+  "Captain James T. Kirk": "Loots, makes an officer or pumps the team on each attack. Reviewers said B+; data says bomb.",
+  "Captain Jean-Luc Picard": "Team anthem that turns creature and Spacecraft spells into officers. Reviewers and data agree it is a bomb.",
+  "Captain Jonathan Archer": "Brings a dog and pumps a creature based on creature types. Strong in green creature decks.",
+  "Captain Kathryn Janeway": "Extra land drop and explore on every creature. Reviewers said C+ to B; it wins like a bomb.",
+  "Captain Michael Burnham": "Trample body that pings on landfall and grows on the second land. Wins well in red land decks.",
+  "Captain Pike, Fullness of Time": "Grows with each differently named land and plays lands off the top. Bomb-band win rate on early data.",
+  "Captain's Tutelage": "Reviewers called this flash aura a D-, yet it wins strongly. Rewards aggressive decks.",
+  "Cardassia Prime": "White-black tapped dual that gains a life. Filler fixing.",
+  "Cetacean Ops": "Whale with ward that grows on spells. Reviewers gave D+. The data agree.",
+  "Cha'DIch Investigator": "Five mana for two bodies, one with haste. Playable black filler.",
+  "Class-F Shuttlecraft": "Three-mana Spacecraft that taps for any colour. Fine ramp.",
+  "Cleveland Booker, Empath": "Makes a worm on every land drop. Risky if you miss lands.",
+  "Cloak and Phaser": "Cheap with varied lands: two bodies and a loot. Blue-green's best payoff, and the data agrees.",
+  "Cloistered Telepath": "Flash loot on a two-mana body. Fine filler.",
+  "Cold-Blooded Crew": "Six-mana evasive body with counters, or landcycle it. Safe green top end.",
+  "Collation Trimatrix": "One-drop that draws when you tap three artifact creatures. Reviewers liked it; it wins below average and goes early.",
+  "Collective Drone": "Power equals your artifact creatures. Grows quickly in the right deck.",
+  "Command Decision": "White's flexible removal: kill a big creature or draw a card. Reviewers liked it. The data agree.",
+  "Command Subadjunct": "One-mana artifact body with vigilance. Wants artifacts, fine as an early drop.",
+  "Commander Raffi Musiker": "Black body that gains life or investigates. Solid, reviewers said. The data agree.",
+  "Common Goal": "Sorcery-speed bite that reviewers marked down. It wins strongly anyway, one of green's best commons.",
+  "Conquest Mission": "Makes Borg tokens from artifacts. Slow, reviewers gave D. The data agree.",
+  "Consider the Prime Directive": "Flexible instant: soft counter, or stun and draw. Fine, not a priority.",
+  "Constable Odo": "Stuns a creature or investigates. Hybrid, so playable in either colour.",
+  "Culber and Stamets, Star-Crossed": "Body that adds a counter or ramps. Feels vanilla, but it wins fine.",
+  "Cybernetic Specialist": "Colourless two-drop with surveil. Passable filler.",
+  "D'Ghor Bloodletter": "Mini sweeper or edict on entering. Best against boards of small creatures, and it wins well.",
+  "D'Vana Tendi, Optimistic Ensign": "Untaps a permanent to ramp or pseudo-vigilance. Hybrid blue-green filler.",
+  "D-7 Battle Cruiser": "Cheap Spacecraft that makes hasty tokens each combat once charged. Wins above grade, needs creatures to station.",
+  "DOT-7 Repair Squad": "Four-mana flyer with a restrictive untap. Reviewers gave D+. The data agree.",
+  "Dahar Master": "Four-mana Klingon that sacrifices a permanent for damage. Filler that wins above its grade.",
+  "Dal R'El, Augment Orphan": "Makes mana on land drops and sacrifices lands to draw. Generic, but red-green decks win with it.",
+  "Daniels, Temporal Agent": "Gravedigger on a hybrid body. Fine in black-green.",
+  "Data, New Life": "Cheap body that grows whenever you draw. Best with draw effects.",
+  "Dathon and Picard at El-Adrel": "Pump with trample, or an artifact or enchantment edict. Very different modes.",
+  "David and Carol Marcus, Creators": "Ramp body that leaves a fixing land. Great in two-colour green decks, and it wins well.",
+  "De-evolve": "Aura that shrinks and stops blocking. The opponent can beam it up.",
+  "Deanna Troi, Psychic Counsel": "Two-drop that gives later creatures counters. Reviewers rated it high; early data is above average.",
+  "Dominion Assault Force": "Four-mana vigilance body with a small option. Dependable green filler.",
+  "Dominion Saboteur": "Five-mana clone that copies counters too. Reviewers gave D+. The data agree.",
+  "Dominion Supervisor": "Counter on entering and trample for counters. Reviewers gave C-.",
+  "Dr. Leonard \"Bones\" McCoy": "Flash body that raises a permanent or protects a creature. Strong data, and reviewers liked it.",
+  "Dr. McCoy, Surly Surgeon": "Four-mana body that protects counters. Not enough stats.",
+  "Earth, Sector 001": "Tapped blue-green dual that gains a life. High win rate partly reflects who plays it.",
+  "Eject the Warp Core": "Cheap instant shrink, or a huge one with a sacrifice. Reviewers liked it; wins above average.",
+  "Elim Garak, Simple Tailor": "Menace body that drains on every dilemma. Needs modal cards, but it wins above average.",
+  "Emergency Holographic Crew": "Artifact body with a Spacecraft or surveil option. Reviewers gave C-. The data agree.",
+  "Emergency Medical Hologram": "One-drop artifact that adds a counter and gains life. Every deck takes it as filler.",
+  "Encounter the Unknown": "Flexible instant: card advantage or a small sweep. Reviewers gave C++.",
+  "Energize": "Bounces an opponent's creature and can be rebought through beam me up. Blue tempo.",
+  "Ensign Pavel Chekov": "Takes a land from the top of their library. A strange new worlds payoff.",
+  "Enterprise NX-01": "Spacecraft that stuns on entering. Reviewers gave D+. The data agree.",
+  "Erica Ortegas, Plucky Pilot": "Haste body that cheats lands. Reviewers gave D+. The data agree.",
+  "Excalbian Gamemaster": "Makes a pile of officers and grows a creature whenever one dies. Bomb-band win rate, early data.",
+  "Exploratory Mission": "Landfall card advantage enchantment. Slow, reviewers gave D+. The data agree.",
+  "Federation Field Medic": "Vigilance body that grows or draws with a counter. Filler.",
+  "Federation Outpost": "White land that gains life or surveils when untapped. Free upgrade.",
+  "Federation Probe": "One-mana flyer that is easy to beam up. Cheap filler.",
+  "Ferenginar": "Black-green tapped dual that gains a life. Filler fixing.",
+  "Final Frontier": "Ramp that fetches a basic or Planet and rebuys. A fixing spell.",
+  "First Contact": "Cheap instant that mills four and finds a permanent. Green graveyard filler that wins well.",
+  "Free Borg Revolutionaries": "White common that landcycles or pumps the team once. Rarely cycled.",
+  "Fugitive Listener": "Three-mana body that makes them discard. A reliable black common that wins well.",
+  "Gabriel Lorca, Mirror Menace": "Menace body that recurs with dilemmas. Fine in any black deck.",
+  "Gaseous Anomaly": "Blue utility land that draws two late and leaves a fixing land. Fine.",
+  "General Chang, Cold Warrior": "One-drop sacrifice outlet for Klingon decks. Narrow, but it wins well on early data.",
+  "Genesis Effect": "Instant big damage, at the cost of a land. Removal that wins around average.",
+  "Ghost of Illyria": "Four-mana flyer that blinks a permanent. Works with sagas and enter effects.",
+  "Godless Shrine": "White-black shock land. Fixing only, so judge it as a dual.",
+  "Gowron, Eager for Battle": "Grows whenever another creature dies and eats your own for trample. Black-red sacrifice decks only.",
+  "Gray and Adira, Forever Joined": "Hybrid body that copies creatures after noncreature spells. Weak stats.",
+  "Guidance Failure": "Instant tuck that gets cheaper against attackers. Fine tempo removal.",
+  "Gwyndala, the Progeny": "Two-mana body that brings an equipment token. Blue filler, early data.",
+  "H.M.S. Bounty, Unlikely Timeship": "Finds a whale and can take an extra turn. Narrow.",
+  "Hallowed Fountain": "White-blue shock land. Fixing only, so judge it as a dual.",
+  "He's Dead, Jim": "Four-mana instant kill with a surveil. Reliable black removal, but pricier than the cheap options.",
+  "Hemmer, Fixing What Is Broken": "Two-drop that loots when tapped. Reviewers liked it in white-blue Spacecraft decks.",
+  "Highly Illogical": "Cheap counter that kicks into a hard counter. Reviewers were split; the data lean against it.",
+  "Hit It!": "Gives haste and puts a land in play from the top five. Red-green only, and it wins well.",
+  "Hive Mind Coprocessor": "Artifact creatures draw on damage. Needs a Spacecraft deck.",
+  "Holo-Engineer": "Two bodies for one card, and later tokens become big Illusions. Wins at bomb rates.",
+  "Hologram Janeway": "Artifact body that grows creatures when you attack with high power. Strong in red-white and artifact decks.",
+  "Hologram Stalker": "Returns a permanent and makes extra bodies as cards leave the graveyard. A strong green top end.",
+  "Horta": "Seven-power trampler that landcycles for two. Safe filler.",
+  "Hoshi Sato, Exolinguist": "Digs by creature types. Blue filler.",
+  "Humpback Whales": "Six-mana whale with ward and landcycling. Reviewers said C. The data agree.",
+  "I'm a Doctor, Not a . . .": "One-mana instant counter and untap. Only good in racing formats.",
+  "Impossible Choice": "Kill with a drawback, or draw two. Reviewers said mostly the second mode. The data agree.",
+  "In the Pale Moonlight": "Edict, Clue, then a sacrifice for tokens. Reviewers rated all three chapters well.",
+  "Interstellar Effigy": "Bounces a creature on entering. Blue tempo body that wins well for a common.",
+  "Isolinear Processor": "Restricted mana that loots. Reviewers gave D+. The data agree.",
+  "Jadzia Dax, Living Legacy": "Two-drop that grows every turn and ramps hard. Wins far above average, though samples are small.",
+  "Jake Sisko, War Correspondent": "Gains life on landfall and investigates on a second land. Fine in green land decks.",
+  "Jett Reno, Problem Solver": "One-mana body that surveils when tapped. Wants dilemmas.",
+  "Kai Winn, Faithless Leader": "Name a card and punish its cast. Awkward, and reviewers marked it down.",
+  "Khaaaaaaaaaaaannn!": "Instant removal that scales with your mana and exiles the target. Reviewers gave C++; it wins strongly.",
+  "Khan, Despot by Design": "Trample body that pings the opponent and every creature they control. Great against tokens and small creatures.",
+  "Kirk, Commanding Officer": "Eight-power payoff in red-white. Not hard to reach, but only fair.",
+  "L'Rell, Fierce Visionary": "Makes a hasty attacker every combat. Reviewers graded it C; it wins strongly in black-red.",
+  "La'An Noonien-Singh, Security": "Four-mana body that stops a blocker when your power is high. Wins strongly, outpacing its C grade.",
+  "Lieutenant Commander Data": "Grows whenever any player casts a noncreature spell. Reviewers said B+; early data is only average.",
+  "Locutus, the One Who Speaks": "Anthem for artifact creatures that doubles as removal. White-black artifact decks want it.",
+  "Lore, Positronic Provocateur": "Hybrid body with a minor choice. Lackluster on its own.",
+  "MACO Strike Team": "One-drop that makes an officer when targeted. Small, sticky and cheap.",
+  "Make It So": "Four-mana sorcery that draws two with a bonus. Blue's reliable common card draw.",
+  "Malfunctioning Holodeck": "Common exile removal with ward. One of white's best answers and taken early.",
+  "Marooned": "One-mana Aura that taps and locks down a creature when you pay three. Playable blue removal.",
+  "Melkotian Adjudicator": "Flying vigilance body that grows with dilemmas. Reviewers said C. The data agree.",
+  "Miles O'Brien, Transporter Ops": "Bounces your own creature or artifact for value and a card. Best with enter effects.",
+  "Mirror Universe Intrusion": "Clone with menace, or a mass copy when kicked. Reviewers were mixed.",
+  "Moopsy": "One-mana deathtouch blocker that can gain reach. Cheap defence that wins above grade.",
+  "Mr. Spock, Science Officer": "Doubles your draws. Strong in theory, fair on early data, and needs a deck.",
+  "Mugato": "Six-mana reach, vigilance and deathtouch body. Reviewers gave C+; it wins well.",
+  "Munitions Enthusiast": "Aggressive two-drop that pings something when it dies. Wins well above its B grade.",
+  "Neelix, Moral Support": "Makes Food and grows when you gain life. Needs lifegain support.",
+  "Ni'Var Science Academy": "Blue land that enters untapped later for flying or surveil. A free upgrade over a basic.",
+  "Nog, Ambitious Cadet": "Menace two-drop that levels up into a surveil engine. Rated A by reviewers, and it wins strongly.",
+  "Nyota Uhura, Communications": "Draws when an opponent casts the named cost. Gimmicky, but it wins fine on early data.",
+  "Oberth-Class Starship": "Spacecraft that fetches a Plains. White filler.",
+  "Obsidian Order Operative": "Four-mana body that drains on dilemmas. Reviewers disliked the stats. The data agree.",
+  "Open Communications": "Draws a card for one mana and recurs. Prototype beam me up card.",
+  "Organic Avulsion Unit": "Gives artifact creatures menace. Bad early, fine late.",
+  "Orion": "Red-green tapped dual that gains a life. Filler fixing for two-colour decks.",
+  "Overflow Submatrix": "Black artifact body that recasts artifact creatures from the graveyard. Needs artifacts, and wins well.",
+  "Overgrown Tomb": "Black-green shock land. Fixing only, so judge it as a dual.",
+  "Pah-Wraith": "Seven-mana haste attacker that pumps the team by varied lands. Wins above its C++ grade.",
+  "Pattern Buffer Preservation": "Card selection that comes back with beam me up. Reviewers liked it, and it wins above average.",
+  "Perils of the Past": "Cheap pump or artifact removal. Reviewers gave C-; it wins above average.",
+  "Pet Sehlat": "Cheap body that cannot attack alone. Reviewers gave D+. The data agree.",
+  "Phlox, Unorthodox Doctor": "Draws when a creature with a counter connects. Payoff for counters decks.",
+  "Photosynthetic Physician": "Five-mana reach body that leaves an officer. Filler.",
+  "Picard, Leading by Example": "Cheap sorcery-speed pump. Best in aggressive white decks.",
+  "Planetary Bombardment": "Cheap sorcery that deals more damage after a death. Red removal that wins well.",
+  "Planetary Patrol": "Cheap landfall attacker. Reviewers gave C-; it wins strongly in red land decks.",
+  "Plasma Cascade": "Instant burn for any target with an optional loot. Red's reliable common removal, and it wins well.",
+  "Primary Unimatrix Adjunct": "Double strike for your artifact creatures. Wants an artifact deck, and wins at bomb rates there.",
+  "Pure Energy": "Counters that need beam me up to be playable. Reviewers gave D. The data agree.",
+  "Q Continuum": "Green land that enters untapped later for a pump or surveil. A free upgrade over a basic.",
+  "Q, Stacking the Deck": "Four-mana body with a clunky copy ability. Wins strongly, though early data.",
+  "Qo'noS": "Black-red tapped dual that gains a life. Fixing filler.",
+  "Quark's Bar": "Red land that pings or surveils when it enters untapped. A free upgrade over a basic.",
+  "Ravenous Cosmozoan": "Flying haste that gets cheaper with spells in the graveyard. Needs noncreature spells, and wins well.",
+  "Reckless Impulse": "Impulse draw for two cards. Reviewers found it fine, nothing more.",
+  "Relentless Drednok": "One-drop lifelinker that cycles late. Fits black-white artifact decks.",
+  "Resistance Is Futile": "Two-mana kill spell for nonartifact creatures, or a cheap artifact recursion. Black's best cheap answer.",
+  "Risa": "Green-white tapped dual that gains a life. Filler fixing.",
+  "Rogue Artificial Intelligence": "Six-mana body with life or surveil and landcycling. Reviewers said C. The data agree.",
+  "Romulan Bird-of-Prey": "Cheap Spacecraft that charges on noncreature spells. Becomes a nice flyer eventually.",
+  "Romulus": "Blue-black tapped dual that gains a life. Filler fixing.",
+  "Rutherford, Upgraded Ensign": "Digs for an artifact and grows when you cast Spacecraft. Needs artifacts to shine.",
+  "Saavik, Stoic Student": "Flash body that deals damage by creature types. A bit awkward.",
+  "Sacred Foundry": "Red-white shock land. Fixing only, so judge it as a dual.",
+  "Salt Vampire": "Lifelink two-drop that takes their best nonland card and replaces it. Strong on early data.",
+  "Sarcophagus, Ship of the Dead": "Anthem Spacecraft that charges as creatures die. Aggressive red decks win with it.",
+  "Sarek, Federation Ambassador": "Three-colour draw engine by creature types. Hard to cast.",
+  "Saru, Unthreatened": "Flash body that protects another creature. Reviewers gave D+. The data agree.",
+  "Saurian Explorer": "Four-mana landfall body that pumps on land drops. One reviewer disliked it on defence.",
+  "Savvy Profiteer": "Mana dork that can build Treasures. Red ramp filler that wins well.",
+  "Sela, Tal Shiar Paradox": "Makes tapped tokens as cards leave graveyards. Needs graveyard synergy.",
+  "Set Phasers to . . .": "One-mana stun or attacker kill. Reviewers wondered if they graded it too low; the data say no.",
+  "Seven of Nine": "Draws on dilemmas. Payoff with many modal cards.",
+  "Seven of Nine, Unassimilated": "Two-mana looter that grows into a big threat with varied lands. Wins above average.",
+  "Shields Up!": "Protection spell that adds a counter. You must play around it against white.",
+  "Shuttle Ace": "Five-mana body with flying on your turn. Awkward on defence.",
+  "Sickbay": "Five-mana artifact that gains life and grows creatures. Slow.",
+  "Silicate Surveyor": "Five-mana reach body that replaces itself. Playable red filler.",
+  "Spatial Anomaly": "Red utility land that kills a small creature late. Reviewers said D+; it wins above average.",
+  "Species 8472": "Big green body that gains life from varied lands. Wins above average as a top end.",
+  "Spock, Always Your Friend": "Cheap card selection for decks full of noncreature spells. Blue-red wants it, and it wins strongly.",
+  "Starfleet Security": "One-mana haste body that investigates if it dies on your turn. Weak.",
+  "Starfleet Spanner Jockey": "Defender that attacks after noncreature spells. Weak, near average by win rate.",
+  "Steam Vents": "Blue-red shock land. Fixing only, so judge it as a dual.",
+  "Stomping Ground": "Red-green shock land. Fixing only, so judge it as a dual.",
+  "Storied Veteran": "One-drop that cannot block but recasts from the graveyard. Suits aggressive black decks and mill.",
+  "Stray from History": "Recursion or discard mode. Reads like a sealed card.",
+  "Subcommander T'Pol": "Flash body that counters an ability or stuns a creature. Reviewers said C; it wins strongly.",
+  "Subspace Anomaly": "White land that sacrifices late for tokens and a fixing land. Playable.",
+  "Sulu, Space Swashbuckler": "First strike two-drop that draws with Spacecraft or Equipment. Needs support.",
+  "Support Mission": "Counters on every creature that enters. Reviewers rejected it. The data agree.",
+  "Suurok-Class Science Vessel": "Draws on entering, then stations into a flyer. Blue's common card advantage.",
+  "Suus Mahna Practitioner": "Tap ability that gets cheaper with varied lands. Reviewers gave D. The data agree.",
+  "Sylvia Tilly, Joy of Discovery": "Surveils on entering and feeds on the graveyard. Solid green three-drop that wins strongly.",
+  "Syndicate Liquidators": "Five-mana trampler that stacks counters on every land drop. Reviewers feared removal; the data is strong.",
+  "Tactical Officer": "Filler for eight-power decks. Reviewers gave D+; it wins about average.",
+  "Tal Shiar Analyst": "Pings each opponent every turn and untaps on noncreature spells. Reviewers rated it D+.",
+  "Tal Shiar Operative": "Attacker that gives deathtouch or surveils. A dilemma enabler.",
+  "Targ Wrangler": "Menace attacker with a real drawback. Reviewers disliked it, though it wins above average.",
+  "Tasha Yar, Out of Time": "Hasty two-drop that replaces itself when it dies and returns briefly. Good in aggressive red decks.",
+  "Tea, Earl Grey, Hot": "Colourless artifact that draws and later drains or gains. Gluey filler.",
+  "Tell Me What You See": "Opponent chooses between a card and four life. Worst win rate in the set.",
+  "Temple Garden": "Green-white shock land. Fixing only, so judge it as a dual.",
+  "Temporal Anomaly": "Colourless utility land for green that digs late and leaves a fixing land. Wins strongly.",
+  "Temporal Conqueror": "Mills three, then returns a land or makes a Treasure. A green common that wins strongly.",
+  "Tenacious Drone": "Sticky two-drop that leaves a Borg token. Fits artifact decks.",
+  "Test of Conviction": "Mass counters or card draw. Good when going wide.",
+  "Test of Courage": "Sideboard graveyard or artifact removal. Too niche.",
+  "Test of Identity": "Klingon trick or card filtering. Low-impact filler.",
+  "Test of Loyalty": "One-mana choice: draw or return a creature. Both worth a card.",
+  "Test of Priorities": "Instant surveil and draw, or blink. Reviewers gave C. The data agree.",
+  "The Caretaker": "Six-mana vigilant body with ward and dilemma payoff. Hard to answer.",
+  "The Destruction of Praxis": "Board wipe sized by differently named lands. Strong, but needs a deck built around varied lands.",
+  "The Doctor, EMH": "Counter spreading body. Not much by itself.",
+  "The Duras Sisters": "Two mana for two bodies. Any black or red deck plays it, and it wins very well.",
+  "The Holodeck": "Seven-mana artifact that replays permanents. Too slow.",
+  "The Inner Light": "Gold saga that returns a creature and draws on damage. Green-white only.",
+  "The Measure of a Man": "Exile saga that returns the target later. Mainly a synergy card.",
+  "The Naked Time": "Saga that fetches a Mountain and pumps new creatures. Narrow.",
+  "The Traveler": "Reach and vigilance, with power scaling off varied lands. Blue-green's cheap payoff, and it wins strongly.",
+  "The Unicomplex": "Black land that can put a creature on top of your library. Free upgrade over a basic.",
+  "The Wrath of Khan": "Four damage to a creature, then you steal it for the turn. Removal that wins far above average.",
+  "There's Coffee in that Nebula": "Digs for a Plains or cheap permanent, twice with beam me up. Reviewers gave B-, but it loses so far.",
+  "Those Old Scientists": "Looting saga with recursion. Reviewers gave D-. The data agree.",
+  "Transporter Malfunction": "Cheap burn that can hit any target and be recast late. Strong win rate for a red uncommon.",
+  "Tricorder": "One-mana equipment with surveil. Filler for aggressive decks.",
+  "Type-2 Phaser": "Equipment that stuns on entering. Reviewers gave D+. The data agree.",
+  "U.S.S. Cerritos, Following Up": "Colourless Spacecraft that arrives with two officers. Playable in any deck.",
+  "U.S.S. Discovery, at Black Alert": "Discovers a free spell on entering and on every attack. Top win rate in the set, early data.",
+  "U.S.S. Enterprise-D, Galaxy-Class": "Colourless Spacecraft that gives card advantage once stationed. Rated A; wins only moderately above average.",
+  "U.S.S. Excelsior, Cutting Edge": "Kills a tapped creature on entering, then stations into a flyer. Slower decks use it best.",
+  "U.S.S. Reliant, From Hell's Heart": "Spacecraft that returns a creature on entering and on damage. Black recursion; reviewers said B.",
+  "U.S.S. Voyager, Lone Wanderer": "Ramps two lands and later becomes a flyer. Reviewers said B-; it wins above average.",
+  "Una Chin-Riley, Number One": "Eight-power payoff at five mana. Reviewers gave D+; filler.",
+  "Unexplored Territory": "Colourless land that sacrifices to fetch a basic. Hard to cast spells off.",
+  "V'Ger, the Intruder": "Seven-mana flyer with card advantage each attack. Blue top end.",
+  "Vash, Freelance Archaeologist": "Three-mana surveil engine that draws off graveyard departures. Black-green decks win with it.",
+  "Vengeance Mission": "Drains slowly as creatures die. Reviewers gave D-. The data agree.",
+  "Vexing Drone": "Artifact two-drop that taps a creature on entering. Fine filler.",
+  "Vulcan": "White-blue tapped dual that gains a life. Filler fixing.",
+  "Warp Core": "Fetches a basic and charges Spacecraft. Reviewers gave D+. The data agree.",
+  "Warp Speed": "Lands enter untapped and it finds a land. Reviewers gave C-.",
+  "Watery Grave": "Blue-black shock land. Fixing only, so judge it as a dual.",
+  "Wesley Crusher, Starfleet Cadet": "Flash body that picks two small effects. Wins slightly above average on early data.",
+  "Will Riker, First in the Field": "Temporary ramp every combat that feeds landfall. Reviewers gave B-; early data puts it in the bomb band.",
+  "Worf, Honor-Bound Warrior": "Hybrid two-drop that doubles power with eight power. Needs red-white aggro.",
+  "Worf, Intelligence Contractor": "Steals a cheap creature for a turn. Tempo play that wins above its reviewer grade.",
+  "Xenobotanist": "Common mana dork that taps for any colour. Reviewers said C; it wins well above that.",
+  "Xindi Surveyors": "Grows on every land drop. Reviewers gave D+; it wins above average in landfall decks.",
+  "Zefram Cochrane, Warp Pioneer": "Casts artifacts from the top of your library. Needs an artifact deck.",
+  "Zero, Incorporeal Sensate": "Lifelink body that taxes their best spell. Hybrid, and it wins above average."
+ },
+ "colours": {
+  "W": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Artifact creatures, Spacecraft, counters and the eight-power attackers. White has the weakest commons in the set (they average 53.0, the lowest of any colour) and its uncommons are not much better. The rares are another story: the white mythics and the double-strike artifact rare are among the best cards in the set.",
+      "Three of its four pairs sit near the bottom by deck win rate. RW is the exception, because red carries it. White is a colour to end up in for a strong rare, not one to aim for."
+     ]
+    }
+   ]
+  },
+  "U": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Spacecraft, dilemmas, bounce and card draw. Blue's commons are middling and its uncommons are flat (the reviewers graded nearly all of them between D+ and B-), with one standout, the expensive Strange New Worlds spell that draws and makes two bodies. The best common is the five-mana artifact that bounces a creature.",
+      "No common blue card kills anything; blue removal taps, stuns, bounces or puts a creature on top of the library. The reviewers liked blue commons more than the data does. UR and GU are the blue pairs that win; UB is the worst deck in the format."
+     ]
+    }
+   ]
+  },
+  "B": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Klingons, artifact creatures, dilemmas and the graveyard. Black has the most reliable removal (an unconditional instant at common, a cheap -2/-2 that grows when you sacrifice, a two-mana kill spell at uncommon) but the weakest uncommons of any colour, 52.4 on average. Several of them are dilemma payoffs, and those lose.",
+      "The rares are good, and the black pairs split sharply: BR and BG are top-three decks, while WB and UB are at the bottom."
+     ]
+    }
+   ]
+  },
+  "R": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Klingons, landfall and the eight-power attackers. Red is the best colour in the early data: the best commons (57.2 on average), the best uncommons (57.6) and the most removal, with burn at one, two, three and five mana and an X spell at uncommon.",
+      "This is the biggest gap between the reviewers and the data. Both reviewers and Draftsim called red's commons weak or flat. So far they are the best in the set, and several of them still go late (see Sleepers). All four red pairs have above-average deck win rates."
+     ]
+    }
+   ]
+  },
+  "G": {
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Landfall, Strange New Worlds, counters and self-mill. Green has the deepest rares by far (the seven green rares average 62.3), solid commons and good uncommons. Its common bite spell is the best common removal, and its two-drop mana creature fixes for any colour.",
+      "Green splits in two: half its commons feed the slow GU and BG decks (mill, lands, value), the other half the RG and GW attackers. RG is the best deck in the format and BG is third."
+     ]
+    }
+   ]
+  }
+ },
+ "pairs": {
+  "WU": {
+   "archetypes": [
+    {
+     "name": "Spacecraft tempo",
+     "mechanic": "spacecraft",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Tempo and enters-the-battlefield value with a few Spacecraft on top. The signpost protects your Spacecraft and loots whenever it taps, which stationing does. Below average by deck win rate, mostly because white's commons are thin.",
+        "Don't overload on ships. Two or three good ones is the number both reviewers give; each one needs creatures to tap, and a deck with too many ends up tapping its blockers for nothing."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "Spacecraft",
+      "payoff": [
+       "Spacecraft you control",
+       "Spacecraft card",
+       "becomes tapped"
+      ],
+      "enabler": [
+       "Station"
+      ]
+     },
+     "key": [
+      [
+       "Hemmer, Fixing What Is Broken",
+       "Loots every time it taps to station. Spacecraft get hexproof on your turn."
+      ],
+      [
+       "Constable Odo",
+       "Locks down a creature for two turns or makes two Clues."
+      ],
+      [
+       "U.S.S. Excelsior, Cutting Edge",
+       "Kills a tapped creature on entry, then becomes a flyer."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  },
+  "UB": {
+   "archetypes": [
+    {
+     "name": "Dilemmas",
+     "mechanic": "dilemma",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Modal spells and creatures (any card that says choose one counts as facing a dilemma) with payoffs that draw, drain or grow when you choose. The worst deck in the format by a distance, under 50% in the early data.",
+        "The plan has plenty of enablers and almost no reward. The dilemma payoffs are among the weakest cards in the set, so the reviewers' advice holds: play the good modal cards for what they do and don't go all in. A UB deck built on black removal and blue tempo cards does better than one built on dilemmas."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "dilemmas",
+      "payoff": [
+       "face a dilemma",
+       "faced a dilemma"
+      ],
+      "enabler": [
+       "Choose one",
+       "choose two",
+       "choose one or more"
+      ]
+     },
+     "key": [
+      [
+       "Seven of Nine",
+       "The dilemma payoff. Draws a card per choice, but wins only about 50%."
+      ],
+      [
+       "Lore, Positronic Provocateur",
+       "Cheap hybrid body with a modal enter trigger."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  },
+  "BR": {
+   "archetypes": [
+    {
+     "name": "Klingon aggro",
+     "mechanic": "eight-power",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Klingons, hasty 2/1 tokens and sacrifice. Not quite all-out aggro: the deck does a little more each turn, makes tokens that die anyway and turns them into value. Second best by deck win rate, and the gold cards are very good.",
+        "Most of the set's Klingons are here, so the Klingon tricks and payoffs work. Red supplies the burn and black the kill spells, which makes it the pair with the most removal."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "Klingons and sacrifice",
+      "payoff": [
+       "Target Klingon",
+       "sacrificed a Klingon",
+       "Sacrifice another"
+      ],
+      "enabler": [
+       "Klingon Warrior"
+      ]
+     },
+     "key": [
+      [
+       "The Duras Sisters",
+       "A hybrid two-drop that leaves a hasty token behind. The best gold uncommon."
+      ],
+      [
+       "L'Rell, Fierce Visionary",
+       "A hasty attacker every turn, plus a sacrifice outlet."
+      ],
+      [
+       "Gowron, Eager for Battle",
+       "Grows when anything dies and draws off sacrificed Klingons."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Klingon"
+   ]
+  },
+  "RG": {
+   "archetypes": [
+    {
+     "name": "Landfall stompy",
+     "mechanic": "landfall",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Put as many stats on the board as fast as you can and trigger landfall on the way. The best deck in the format so far, at 59.2.",
+        "Landfall creatures are weak as late draws, so play them on curve while you still have land drops. Extra land drops, Planet tokens made at instant speed and the green land searchers give second triggers in a turn. Hasty and trampling threats let the deck finish games before the slower decks take over."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "landfall",
+      "payoff": [
+       "Landfall"
+      ],
+      "enabler": [
+       "Planet land token",
+       "play an additional land",
+       "basic land card or Planet card",
+       "Put a land card"
+      ]
+     },
+     "key": [
+      [
+       "Dal R'El, Augment Orphan",
+       "Ramps on every land drop and turns spare lands into cards."
+      ],
+      [
+       "Hit It!",
+       "Haste for the team and a land off the top."
+      ],
+      [
+       "Cleveland Booker, Empath",
+       "A 2/2 token on every land drop."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  },
+  "GW": {
+   "archetypes": [
+    {
+     "name": "Counters",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "+1/+1 counters, Doctors and a wide board, with payoffs that draw cards or spread more counters. The reviewers suggested it for newer players. The early data disagree: it is one of the three weakest pairs, and both gold counter payoffs win under 51%.",
+        "Green's good commons still make it playable. Treat the counters as a bonus on cards that are good anyway and don't take the gold payoffs early."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "+1/+1 counters",
+      "payoff": [
+       "with a counter on it",
+       "permanent with a counter"
+      ],
+      "enabler": [
+       "+1/+1 counter"
+      ]
+     },
+     "key": [
+      [
+       "Phlox, Unorthodox Doctor",
+       "Draws whenever a creature with a counter connects. Loses in the early data."
+      ],
+      [
+       "The Doctor, EMH",
+       "Spreads counters across the team. Also below average so far."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  },
+  "WB": {
+   "archetypes": [
+    {
+     "name": "Borg artifacts",
+     "mechanic": "artifact-creatures",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Artifact creatures, Borg and lords that pump them. Both reviewers named it a likely top deck and the sealed guide called it pretty strong. The early data rank it ninth of ten, at 53.1.",
+        "The gold cards and the rares are good; the problem is the commons that fill the deck, which are among the weakest in white and black. It needs a lot of artifact creatures to make the payoffs work, around 14 or 15 in a 17-creature deck by the reviewers' count. Pick it up when the double-strike rare or the lord comes, not before."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "artifact creatures",
+      "payoff": [
+       "Artifact creatures you control",
+       "artifact creatures you control"
+      ],
+      "enabler": [
+       "Borg artifact creature token"
+      ]
+     },
+     "key": [
+      [
+       "Locutus, the One Who Speaks",
+       "Lord for artifact creatures, or a removal spell from your hand."
+      ],
+      [
+       "Zero, Incorporeal Sensate",
+       "Hybrid lifelinker that taxes their best card."
+      ],
+      [
+       "Primary Unimatrix Adjunct",
+       "Double strike for every artifact creature. The reason to be here."
+      ]
+     ]
+    }
+   ],
+   "tribes": [
+    "Borg"
+   ]
+  },
+  "UR": {
+   "archetypes": [
+    {
+     "name": "Spells tempo",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Cheap creatures, instants and sorceries, and payoffs that care about noncreature spells. Above average at 56.0. The signpost two-drop is one of the best gold cards and wins even more for strong players.",
+        "It wants about ten noncreature spells for the signpost to hit reliably; eight is playable, fewer is not. Red's burn does most of the work, and blue's bounce and counters keep the tempo."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "noncreature spells",
+      "payoff": [
+       "noncreature spell",
+       "noncreature, nonland card"
+      ],
+      "enabler": [
+       "Instant",
+       "Sorcery"
+      ]
+     },
+     "key": [
+      [
+       "Spock, Always Your Friend",
+       "Finds a spell from the top four. A top uncommon."
+      ],
+      [
+       "Gray and Adira, Forever Joined",
+       "Copies a creature each turn you cast a spell. Weaker than it looks."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  },
+  "BG": {
+   "archetypes": [
+    {
+     "name": "Graveyard value",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Mill, surveil and bring cards back, with payoffs that trigger when a card leaves your graveyard. Third by deck win rate, and BG cards do better here than anywhere else: the average card wins over two points more in BG than its overall rate.",
+        "A grindy deck. Make good trades, don't race, and let the value creatures and black removal take over. Milled cards with beam me up are free spells, which is why the reviewers liked the overlap."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "the graveyard",
+      "payoff": [
+       "leaves your graveyard",
+       "from your graveyard"
+      ],
+      "enabler": [
+       "mill",
+       "surveil"
+      ]
+     },
+     "key": [
+      [
+       "Nog, Ambitious Cadet",
+       "A two-drop that levels into a 3/4 that surveils."
+      ],
+      [
+       "Vash, Freelance Archaeologist",
+       "Surveils every turn and draws when a card leaves the graveyard."
+      ],
+      [
+       "Daniels, Temporal Agent",
+       "Brings back a creature card, then recycles itself."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  },
+  "RW": {
+   "archetypes": [
+    {
+     "name": "Eight power",
+     "mechanic": "eight-power",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Play a creature every turn and attack with eight or more total power to switch on the payoffs. Fourth by deck win rate, and it has the best common in the set, a red three-drop that pumps an attacker every combat.",
+        "Eight power is less than it sounds: a two-drop, a three-drop and most four-drops get there. The catch is that trades drop you below it again, so the deck wants more bodies, not tricks. Equipment adds power to one creature only."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "eight power",
+      "payoff": [
+       "total power 8"
+      ],
+      "enabler": [
+       "Officer creature token"
+      ]
+     },
+     "key": [
+      [
+       "Kirk, Commanding Officer",
+       "Card advantage on every attack with eight power."
+      ],
+      [
+       "Worf, Honor-Bound Warrior",
+       "Hybrid two-drop that doubles its power."
+      ],
+      [
+       "Cantankerous Captain",
+       "The best common in the set. Gives menace once you reach eight power."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  },
+  "GU": {
+   "archetypes": [
+    {
+     "name": "Strange New Worlds",
+     "mechanic": "strange-new-worlds",
+     "sections": [
+      {
+       "heading": "",
+       "text": [
+        "Count differently named lands: Planet duals at common, shock lands at rare, the colourless Anomaly lands and New Planet tokens. Payoffs get cheaper or bigger with each name. Just below the middle by deck win rate, and the most played deck on Arena in the first days according to the reviewers.",
+        "A two-colour deck with a dual and a colourless land gets to about three names, the floor. Draft fixing highly here: four to seven tapped duals is fine in this deck, though not in others. The reviewers also note a mill plan with the blue card that takes their top land."
+       ]
+      }
+     ],
+     "theme": {
+      "label": "different land names",
+      "payoff": [
+       "Strange new worlds"
+      ],
+      "enabler": [
+       "Planet",
+       "basic land card"
+      ]
+     },
+     "key": [
+      [
+       "The Traveler",
+       "Power equals your land names. A top gold uncommon."
+      ],
+      [
+       "Cloak and Phaser",
+       "Two bodies and two cards, cheaper with each land name."
+      ],
+      [
+       "Earth, Sector 001",
+       "The GU Planet dual. The best of the common lands."
+      ]
+     ]
+    }
+   ],
+   "tribes": []
+  }
+ },
+ "pages": [
+  {
+   "id": "overview",
+   "title": "The set",
+   "group": "Basics",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Star Trek is a Universes Beyond set with crews, starships and planets. Each two-colour pair has its own plan, from Klingon aggro to counting differently named lands. Most decks play cheap creatures with enter-the-battlefield effects, and beam me up lets you cast cards from the graveyard by picking one of those creatures back up.",
+      "This is an early guide. The numbers come from the first four days of 17Lands Premier Draft data (about 64,000 games, 9,000 of them from strong players), so rare and mythic win rates are rough and the deck-level numbers that the Bloomburrow guide has are not out yet. The card reviews come from a two-host set review podcast, a sealed guide and Draftsim's set review. When they disagree with the data, the page says so. Where the guide says strong players, it means 17Lands users who win 60% or more of their games."
+     ]
+    },
+    {
+     "heading": "The format in short",
+     "list": [
+      "Red and green are the deep colours. Red has the best commons and uncommons so far and the most removal; green has the best rares.",
+      "RG, BR, BG and RW have the best deck win rates. UB is clearly the worst, and WB, GW and WU are close behind it.",
+      "Removal is narrower than usual: most of it is damage, size-limited or sorcery speed. Take the clean answers when you see them.",
+      "Beam me up rewards cheap creatures with good enter effects. Pick up a one- or two-drop to recast the spell, never your five-drop.",
+      "Spacecraft are good in twos and threes, not tens. They need creatures to tap.",
+      "Not every theme pays off. Klingons, landfall, the graveyard and land names work. Dilemmas, the counters payoffs and the Mission enchantments lose.",
+      "Rares matter a lot: ten of them win at 63.8 or more, against 60.8 for the best common.",
+      "The ten common Planet duals are solid and go late. Most decks want one or two; GU wants as many as it can get."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drafting",
+   "title": "How to draft it",
+   "group": "Basics",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Early picks: power first, then removal. The green, white and red rares at the top of the set come first whatever their colour, then clean removal (red burn, black kill spells, the green bite spell), then the best gold uncommons. A strong gold two-drop is a fine early pick, but it ties you to two colours on pick one."
+     ]
+    },
+    {
+     "heading": "Lean toward red",
+     "text": [
+      "Red is the best colour in the early data, and the table hasn't caught up. Reviewers called red's commons flat or weak, and drafters take them that way: the best common in the set is often still there at pick six or seven, and a red aura that wins almost as much goes even later. If red keeps flowing in pack 1, take the hint.",
+      "Green is the other deep colour. Its rares are the best in the set, and it pairs best with red and black."
+     ]
+    },
+    {
+     "heading": "Which themes are worth it",
+     "text": [
+      "Some plans in this set pay off and some don't, and you can't tell from the card text. The ones that work: Klingons and sacrifice in BR, landfall in RG, graveyard value in BG, eight power in RW and land names in GU. Their gold cards are good and their commons hold up.",
+      "The ones that don't, so far: dilemmas in UB, counters in GW and artifact creatures in WB. In each case the enablers are fine cards but the payoffs lose, and the decks rank near the bottom. You can still end up in those colours. Just draft them as good cards plus removal, and don't take the payoff early hoping the theme comes.",
+      "Sharing a mechanic isn't support. A card that rewards you for land names needs real land names; a card that rewards Klingons needs Klingons."
+     ]
+    },
+    {
+     "heading": "Lands",
+     "text": [
+      "The common Planet duals (tapped, gain one life, two colours) win about as often as an average card and still go late. In a normal two-colour deck take two of yours: better mana without too many slow turns. In GU take every one you can, because each one is another land name.",
+      "The colourless Anomaly lands that sacrifice for an effect are a real cost to your coloured mana. Play one at most. The rare shock lands are fine but not worth a high pick outside GU."
+     ]
+    },
+    {
+     "heading": "Main colour and second colour",
+     "text": [
+      "This held in Bloomburrow's draft data and is general enough to carry over; TRK's draft data isn't public yet. You don't draft two colours at once. Pack 1 settles one colour, and the second gets decided in pack 2 once you see what the table is leaving alone.",
+      "Count as you go. A finished deck is about 13 cards of the main colour and 8 of the second. Once the main colour has about seven good cards, another average one only pushes out your weakest. A decent card in the colour you are short of adds one."
+     ]
+    },
+    {
+     "heading": "Reading what is open",
+     "text": [
+      "In packs 1 and 3 the same neighbour passes to you; in pack 2 it is the other one. So what you see late in pack 1 tells you about pack 3. A signal is a good card arriving later than it normally gets taken. In this set, the late red commons are a signal only if they are later than usual, because everyone is passing them a bit."
+     ]
+    },
+    {
+     "heading": "Where people go wrong",
+     "text": [
+      "Flashy rares with weak results get taken in the first three picks (see Traps). The dilemma payoffs, the Mission enchantments and the counters gold cards look like build-arounds and play like filler. The Sleepers page lists cards that win more than their pick order suggests."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "building",
+   "title": "Building a deck",
+   "group": "Basics",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "17Lands hasn't published TRK's game data yet, so this page can't give the measured deck numbers the Bloomburrow guide has (land count, creature count, curve by result). What follows is the reviewers' advice plus what the card data already show. Expect this page to change."
+     ]
+    },
+    {
+     "heading": "The shape",
+     "list": [
+      "Two colours. There are no over-the-top bombs worth bending the mana for, so splash only a strong single-pip rare or removal spell, and only with a dual or a green fixer.",
+      "Keep the curve low and affect the board early. Both reviewers expect pressure from cheap creatures, more than in the last set, and a good one-drop is worth more than usual.",
+      "Plenty of creatures. Spacecraft, beam me up and the eight-power cards all need bodies.",
+      "Two or three Spacecraft at most, and only the good ones.",
+      "Count beam me up cards as half a card more: you will cast the good ones twice. Pick up cheap creatures to do it."
+     ]
+    },
+    {
+     "heading": "Lands",
+     "text": [
+      "The reviewers build with 17 lands. Take two Planet duals for your colours in a normal deck; GU can play four to seven. Play at most one colourless Anomaly land, ideally as a seventeenth or eighteenth land when you can't cut a basic.",
+      "Land cyclers are weaker here than in recent sets: the bodies are big but plain, and there is little to reanimate them with."
+     ]
+    },
+    {
+     "heading": "Removal",
+     "text": [
+      "Removal in this set is mostly damage, a size condition or sorcery speed, so plan what each spell can kill. Black's -X/-X and the four-power condition on the white common both have awkward gaps. Take a solid removal spell over a pretty good creature: the reviewers felt the shortage, and the data back them, since nearly all the clean removal wins above average."
+     ]
+    },
+    {
+     "heading": "Cards to leave out",
+     "text": [
+      "The Mission enchantments are too slow for what they give. Both reviewers said so and all of them lose in the data. The Test sorceries and instants are mostly weak too; the least bad is red's Klingon one, in BR. Stun and tap removal is worse than it looks against beam me up decks, which happily pick the stunned creature back up."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beam-me-up",
+   "title": "Beam me up",
+   "group": "Mechanics",
+   "match": "Beam me up",
+   "summary": "Cast the card again from your graveyard by also returning a creature you control to your hand",
+   "verdict": "Good with cheap enter-the-battlefield creatures. The best ones are spells you want twice.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Beam me up works like flashback with an extra cost: return a creature you control to its owner's hand. That is a downside unless the creature does something when it enters, and in this set many do. Pick up a one- or two-drop and replay it; never return the five-drop. It is sorcery speed, so it can't save a creature from removal. Milling or discarding these cards is free value, which is why the graveyard decks like them.",
+      "The reviewers expected it to define the format. The data mostly agree for the burn and token spells and disagree for the white ones."
+     ],
+     "cards": [
+      [
+       "Transporter Malfunction",
+       "Three damage twice. The best beam me up card."
+      ],
+      [
+       "Boarding Action",
+       "A hasty token now and another later."
+      ],
+      [
+       "Pure Energy",
+       "Counters twice still isn't enough. One of the weakest commons."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spacecraft",
+   "title": "Spacecraft",
+   "group": "Mechanics",
+   "match": "Station",
+   "summary": "Artifacts you charge by tapping creatures (station); at enough counters they become flying creatures",
+   "verdict": "Play two or three good ones. More than that and they stop working.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "To station, tap another creature you control as a sorcery and put charge counters equal to its power on the Spacecraft. At the number on the card (often six) it becomes an artifact creature, and most fly. Thresholds are lower than in the last set with Spacecraft. Most of the set's flying is on these ships, so a charged one gets in.",
+      "They need a fair creature count. A deck full of ships taps its blockers for nothing. The ones that come with a body or an enter effect play best. Against a loaded ship, a tap or stun effect at instant speed is a big tempo swing."
+     ],
+     "cards": [
+      [
+       "U.S.S. Discovery, at Black Alert",
+       "The best card in the set by win rate. Casts a free spell on entry and every attack."
+      ],
+      [
+       "Oberth-Class Starship",
+       "A two-mana ship that fetches a land. Solid filler for white."
+      ],
+      [
+       "Enterprise NX-01",
+       "Stuns on entry, then asks a lot. Below average."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strange-new-worlds",
+   "title": "Strange New Worlds",
+   "group": "Mechanics",
+   "match": "Strange new worlds",
+   "summary": "Gets cheaper or bigger with each differently named land you control",
+   "verdict": "GU's mechanic. Strong payoffs that need real land variety.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "It counts land names, not colours or types: two copies of the same dual count once, but every basic type, Planet dual, shock land, Anomaly land and New Planet token adds one. A plain two-colour deck with one dual reaches three, which is the floor. GU decks with several duals reach four to seven by the mid game, and the payoffs get very good there."
+     ],
+     "cards": [
+      [
+       "Captain Pike, Fullness of Time",
+       "Grows with land names and lets you play lands off the top."
+      ],
+      [
+       "Cloak and Phaser",
+       "The best blue uncommon. Cast it for about five mana."
+      ],
+      [
+       "Suus Mahna Practitioner",
+       "A repeatable tapper that is too slow for most decks."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dilemma",
+   "title": "Dilemmas",
+   "group": "Mechanics",
+   "match": [
+    "dilemma",
+    "Choose one",
+    "choose two"
+   ],
+   "summary": "You face a dilemma whenever you choose a mode for a spell or ability",
+   "verdict": "Lots of enablers, weak payoffs. Play modal cards for what they do.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Every choose-one card, and every ability that asks you to choose, counts as facing a dilemma. The set is full of them, so any deck faces a few. The payoffs are what make it a plan: cards that draw, drain, grow or return when you choose. They are mostly in blue and black.",
+      "Those payoffs are among the worst cards in the set so far, and UB, the dilemma pair, is the worst deck. The reviewers saw it coming and warned against going all in. Modal cards are good because both modes are often worth a card, not because of the payoffs."
+     ],
+     "cards": [
+      [
+       "Consider the Prime Directive",
+       "A soft counter or a stun and a card. One of the better blue commons."
+      ],
+      [
+       "Tell Me What You See",
+       "The weakest card in the set."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "landfall",
+   "title": "Landfall",
+   "group": "Mechanics",
+   "match": "Landfall",
+   "summary": "Triggers whenever a land enters under your control",
+   "verdict": "RG's mechanic, and the best deck. Play landfall cards on curve.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Landfall cards trigger on every land drop, so they are strong early and weak as late top-decks. Extra land drops, instant-speed Planet tokens and the green cards that put lands onto the battlefield give a second trigger in a turn. Most payoffs are red and green."
+     ],
+     "cards": [
+      [
+       "Planetary Patrol",
+       "A two-drop that hits hard on land turns. Goes late for how good it is."
+      ],
+      [
+       "Exploratory Mission",
+       "Card advantage off land drops, but slow. One of the weaker Missions."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eight-power",
+   "title": "Eight power",
+   "group": "Mechanics",
+   "match": "total power 8",
+   "summary": "Bonuses when you attack while your creatures have total power 8 or more",
+   "verdict": "RW's mechanic. Easier to reach than it sounds; trades take it away.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Attack with eight or more total power on your side of the table and these cards switch on: extra cards, double power, menace, can't-block effects. A two-drop, a three-drop and a four-drop usually get there. Trades and removal knock you back below, so the deck wants a creature every turn rather than tricks. The red commons that use it are some of the best in the set."
+     ],
+     "cards": [
+      [
+       "Cantankerous Captain",
+       "The best common in the set."
+      ],
+      [
+       "La'An Noonien-Singh, Security",
+       "Stops a blocker on every big attack."
+      ],
+      [
+       "Worf, Honor-Bound Warrior",
+       "Cheap but below average so far."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "artifact-creatures",
+   "title": "Borg and artifact creatures",
+   "group": "Mechanics",
+   "match": [
+    "artifact creatures you control",
+    "Borg"
+   ],
+   "summary": "Lords and engines that reward a board of artifact creatures",
+   "verdict": "WB's plan. Great rares, weak commons. Needs a lot of artifact creatures.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Many creatures in this set are artifacts, and the Borg are WB's version of a tribe. The payoffs pump, draw or copy across all your artifact creatures, so they need a board of them: the reviewers count 14 or 15 in a 17-creature deck. Borg don't count for Federation.",
+      "The rare payoffs are excellent. The common and uncommon Borg are not, which is why WB sits near the bottom despite the hype."
+     ],
+     "cards": [
+      [
+       "Primary Unimatrix Adjunct",
+       "Double strike for the team. A bomb in the right deck."
+      ],
+      [
+       "Antagonist Incorporator",
+       "Makes a Borg token on every hit."
+      ],
+      [
+       "Collective Drone",
+       "Only as big as your artifact creature count. Weak."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "federation",
+   "title": "Federation",
+   "group": "Mechanics",
+   "match": "creature types among non-Borg",
+   "summary": "Counts the creature types among your non-Borg creatures",
+   "verdict": "Easy to misread. Only a few cards below rare.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Federation counts creature types, not creatures: a Human Officer counts two, and a second Human Officer adds nothing. Borg don't count. With the set's many types, four or five is normal by the mid game. It appears on only a handful of cards below rare."
+     ],
+     "cards": [
+      [
+       "Captain Jonathan Archer",
+       "A rare that turns Federation into a big pump every turn."
+      ],
+      [
+       "Saavik, Stoic Student",
+       "Flash removal that is often too small. Below average."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "missions",
+   "title": "Missions",
+   "group": "Mechanics",
+   "match": "quest counter",
+   "summary": "Uncommon enchantments that collect quest counters for a bigger effect",
+   "verdict": "A trap cycle. All of them lose.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Each Mission asks you to do something (cast noncreature spells, play creatures, have creatures die), gives a small effect each time and a bigger one at a set number of counters. They are too slow for what they give, and the reviewers, Draftsim and the data all agree. Three of them are among the ten weakest cards in the set."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "planets",
+   "title": "Planets and lands",
+   "group": "Mechanics",
+   "match": "Planet",
+   "summary": "Common tapped duals named after planets, New Planet tokens and land-searching cards",
+   "verdict": "Better than they look. Two in most decks, many more in GU.",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The ten common Planets are tapped duals that gain a life. They win about average and still go late: the GU one is among the best commons in the set. Several cards make a New Planet token, a tapped land that taps for any colour, and the green land searchers can find Planets as well as basics. Every Planet is another land name for Strange New Worlds and another landfall trigger for RG."
+     ],
+     "cards": [
+      [
+       "Earth, Sector 001",
+       "The GU dual. The best of the common lands."
+      ],
+      [
+       "Spatial Anomaly",
+       "The red Anomaly land: removal in your land slot."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bombs",
+   "title": "Bombs",
+   "group": "Card lists",
+   "band": "bomb",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "The cards that take over a game, all rares and mythics. Most of them have only 500 to 1,300 games behind them so far, so the exact order will move. Green has the most."
+     ],
+     "cards": [
+      [
+       "U.S.S. Discovery, at Black Alert",
+       "A free spell when it enters and on every attack. The best card in the set so far."
+      ],
+      [
+       "Excalbian Gamemaster",
+       "A wave of tokens, then counters whenever your creatures die."
+      ],
+      [
+       "Jadzia Dax, Living Legacy",
+       "A two-drop that grows and ramps every turn."
+      ],
+      [
+       "Captain James T. Kirk",
+       "Value on entry and every attack, and more with an empty hand."
+      ],
+      [
+       "Captain Jean-Luc Picard",
+       "A lord that makes a token with every creature you cast."
+      ],
+      [
+       "Captain Kathryn Janeway",
+       "Every creature explores. Card and land advantage in one."
+      ],
+      [
+       "Holo-Engineer",
+       "Two 3/3s for four mana, and every later token becomes a 3/3."
+      ],
+      [
+       "Will Riker, First in the Field",
+       "Two temporary lands every turn: extra mana and two landfall triggers."
+      ],
+      [
+       "Primary Unimatrix Adjunct",
+       "Double strike for every artifact creature."
+      ],
+      [
+       "Captain Pike, Fullness of Time",
+       "A cheap body that grows and turns lands off the top into card advantage."
+      ]
+     ]
+    },
+    {
+     "heading": "Just below",
+     "text": [
+      "Removal and value rares that also win very often."
+     ],
+     "cards": [
+      [
+       "The Wrath of Khan",
+       "Four damage, then you steal the creature for a turn."
+      ],
+      [
+       "Captain Jonathan Archer",
+       "Two bodies and a big pump every turn."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "removal",
+   "title": "Removal",
+   "group": "Card lists",
+   "tag": "Removal",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Removal is narrower than usual: damage, size conditions, sorcery speed. Red has the most of it and black the cleanest. Best first, by early win rate and how cleanly it answers a creature."
+     ],
+     "cards": [
+      [
+       "The Wrath of Khan",
+       "Rare. Four damage and a stolen attacker."
+      ],
+      [
+       "Khaaaaaaaaaaaannn!",
+       "X damage, doubled, and exiles."
+      ],
+      [
+       "Transporter Malfunction",
+       "Three damage, and again from the graveyard."
+      ],
+      [
+       "Common Goal",
+       "Bite with one or two creatures. The best common removal."
+      ],
+      [
+       "Amok Time",
+       "A fight, three life and a creature back."
+      ],
+      [
+       "Plasma Cascade",
+       "Three damage at instant speed, with a loot."
+      ],
+      [
+       "Planetary Bombardment",
+       "One mana for two damage, four if something died."
+      ],
+      [
+       "D'Ghor Bloodletter",
+       "An edict or a small sweeper on a body."
+      ],
+      [
+       "Resistance Is Futile",
+       "Two-mana kill spell for anything but an artifact creature."
+      ],
+      [
+       "He's Dead, Jim",
+       "Unconditional instant. The cleanest common removal."
+      ],
+      [
+       "Malfunctioning Holodeck",
+       "Exiles any nonland permanent and has ward."
+      ],
+      [
+       "Eject the Warp Core",
+       "A cheap -2/-2, or -6/-6 if you sacrifice something."
+      ],
+      [
+       "Interstellar Effigy",
+       "Bounce on a body. The best blue common."
+      ],
+      [
+       "Genesis Effect",
+       "Six damage, and your land becomes a Planet."
+      ]
+     ]
+    },
+    {
+     "heading": "Weaker than it looks",
+     "text": [
+      "Removal that the reviewers or Draftsim rated highly and the data don't. The white exile spell hands them a land and wins under 51%."
+     ],
+     "cards": [
+      [
+       "70,000 Light-Years from Home",
+       "Clean exile, but the land it gives back costs you."
+      ],
+      [
+       "Set Phasers to . . .",
+       "Only kills an attacker."
+      ],
+      [
+       "Impossible Choice",
+       "The kill mode gives them two tokens."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "traps",
+   "title": "Traps",
+   "group": "Card lists",
+   "sections": [
+    {
+     "heading": "",
+     "text": [
+      "Cards that do worse than their rarity or pick order suggests. These are the weakest commons and uncommons so far:"
+     ],
+     "cards": [
+      [
+       "Tell Me What You See",
+       "The worst card in the set."
+      ],
+      [
+       "Test of Conviction",
+       ""
+      ],
+      [
+       "Anthropological Mission",
+       ""
+      ],
+      [
+       "Support Mission",
+       ""
+      ],
+      [
+       "Obsidian Order Operative",
+       "A dilemma payoff that doesn't pay."
+      ],
+      [
+       "Pure Energy",
+       ""
+      ],
+      [
+       "A Good Day to Die",
+       ""
+      ],
+      [
+       "Vengeance Mission",
+       ""
+      ],
+      [
+       "Phlox, Unorthodox Doctor",
+       "The GW signpost. Under 49%."
+      ]
+     ]
+    },
+    {
+     "heading": "",
+     "text": [
+      "These rares go in the first three picks on average and win less than an average common. Draftsim rated the six-mana blue one a nine out of ten:"
+     ],
+     "cards": [
+      [
+       "The Caretaker",
+       ""
+      ],
+      [
+       "Lieutenant Commander Data",
+       ""
+      ],
+      [
+       "Mirror Universe Intrusion",
+       ""
+      ],
+      [
+       "H.M.S. Bounty, Unlikely Timeship",
+       ""
+      ],
+      [
+       "Collation Trimatrix",
+       ""
+      ],
+      [
+       "The Inner Light",
+       ""
+      ]
+     ]
+    },
+    {
+     "heading": "",
+     "text": [
+      "And uncommons taken around pick 4 that lose:"
+     ],
+     "cards": [
+      [
+       "Seven of Nine",
+       "The dilemma payoff."
+      ],
+      [
+       "Hive Mind Coprocessor",
+       ""
+      ],
+      [
+       "Dr. McCoy, Surly Surgeon",
+       ""
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
